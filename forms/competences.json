@@ -4,12 +4,115 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "id_langueGrid",
+                        "label": "LANGUES :",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "LANGUE",
+                            "value": "id_lang"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "id_competenceGrid",
+                        "label": "COMPÉTENCES :",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "COMPÉTENCE",
+                            "value": "id_compete"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "id_intererGrid",
+                        "label": "CENTRES D'INTÉRÊTS :",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "CENTRE D'INTÉRÊT",
+                            "value": "id_interet"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
-            "id": "section1",
-            "label": "Section"
+            "comment": "",
+            "id": "id_competence",
+            "join": "",
+            "label": "Compétences et centres d\u2019intérêt :",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
