@@ -9,6 +9,17 @@
          <name>application RH</name>
          <packageActivityFormMap>
             <entry>
+               <string>process1::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>profile</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::activity4</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
