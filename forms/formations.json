@@ -4,12 +4,77 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.Grid",
+                "properties": {
+                    "errorMessage": "Invalid number of rows",
+                    "id": "id_formation_Grid",
+                    "label": "Formations :",
+                    "loadBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "options": [
+                        {
+                            "label": "DATE DE DÉBUT",
+                            "value": "id_dateDebutForma"
+                        },
+                        {
+                            "label": "DATE DE FIN",
+                            "value": "id_dateFinForma"
+                        },
+                        {
+                            "label": "DIPLÔME",
+                            "value": "id_diplome"
+                        },
+                        {
+                            "label": "ETABLISSEMENT",
+                            "value": "id_etablisement"
+                        },
+                        {
+                            "label": "DESCRIPTION",
+                            "value": "id_discriptionForma"
+                        }
+                    ],
+                    "readonly": "",
+                    "storeBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "validateMaxRow": "",
+                    "validateMinRow": "",
+                    "validator": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            }],
             "properties": {"width": "100%"}
         }],
         "properties": {
-            "id": "section1",
-            "label": "Section"
+            "comment": "",
+            "id": "id_formastion_section",
+            "join": "",
+            "label": "FORMATIONS :",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
