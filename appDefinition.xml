@@ -2,7 +2,26 @@
    <id>AppRH</id>
    <version></version>
    <name>application RH</name>
-   <packageDefinitionList/>
+   <packageDefinitionList>
+      <packageDefinition>
+         <appId>AppRH</appId>
+         <id>AppRH</id>
+         <name>application RH</name>
+         <packageActivityFormMap/>
+         <packageActivityPluginMap/>
+         <packageParticipantMap>
+            <entry>
+               <string>process1::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+         </packageParticipantMap>
+      </packageDefinition>
+   </packageDefinitionList>
    <formDefinitionList/>
    <userviewDefinitionList/>
    <datalistDefinitionList/>

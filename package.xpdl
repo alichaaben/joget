@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Package xmlns="http://www.wfmc.org/2002/XPDL1.0" xmlns:xpdl="http://www.wfmc.org/2002/XPDL1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="AppRH" Name="application RH" xsi:schemaLocation="http://www.wfmc.org/2002/XPDL1.0 http://wfmc.org/standards/docs/TC-1025_schema_10_xpdl.xsd">
+    <PackageHeader>
+        <XPDLVersion>1.0</XPDLVersion>
+        <Vendor/>
+        <Created/>
+    </PackageHeader>
+    <Script Type="text/javascript"/>
+    <Participants>
+        <Participant Id="participant1" Name="Création de CV">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+    </Participants>
+    <Applications>
+        <Application Id="default_application"/>
+    </Applications>
+    <WorkflowProcesses>
+        <WorkflowProcess Id="process1" Name="Process 1">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="activity1" Name="Profile">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>participant1</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="190,23.000003051757815"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="activity2" Name="Compétences">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>participant1</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="386,20.78750152587891"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="activity3" Name="Expériences">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>participant1</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="563,26.187503051757815"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="activity4" Name="Formations">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>participant1</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="741,26.187503051757815"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="activity1" Id="transition0" To="activity2">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="activity2" Id="transition1" To="activity3">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="activity3" Id="transition2" To="activity4">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="participant1"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=participant1,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=80,Y_OFFSET=40,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=participant1,CONNECTING_ACTIVITY_ID=activity4,X_OFFSET=924,Y_OFFSET=23,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+    </WorkflowProcesses>
+    <ExtendedAttributes>
+        <ExtendedAttribute Name="EDITING_TOOL" Value="Web Workflow Designer"/>
+        <ExtendedAttribute Name="EDITING_TOOL_VERSION" Value="5.0-pre-alpha"/>
+    </ExtendedAttributes>
+</Package>
