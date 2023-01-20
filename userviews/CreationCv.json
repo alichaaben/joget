@@ -1,20 +1,198 @@
 {
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [{
-            "className": "org.joget.apps.userview.lib.HtmlPage",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>",
+                    "customId": "welcome",
+                    "id": "3B6F25A638EF40FFAD3C5DAAC41BA98F",
+                    "label": "Welcome"
+                }
+            }],
             "properties": {
-                "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>",
-                "customId": "welcome",
-                "id": "3B6F25A638EF40FFAD3C5DAAC41BA98F",
-                "label": "Welcome"
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
             }
-        }],
-        "properties": {
-            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "profile",
+                    "id": "9A059E97006146909D124A356509483D",
+                    "keyName": "",
+                    "label": "Profile",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-46D4028916F84986B74E44D63D7A97C8",
+                "label": "Profiles",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "competences",
+                    "id": "30F2D542C40547DB81ACCAE94FF8C9D9",
+                    "keyName": "",
+                    "label": "Compétence",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-B85491842C2746C78353B3A2D27B150A",
+                "label": "Compétences",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "experiences",
+                    "id": "D3D9A3EDC1CB479E91BD07DF60C3C69F",
+                    "keyName": "",
+                    "label": "Expérience",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-7031542861BD475691A62D2A95D7EBE3",
+                "label": "Expériences",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "formations",
+                    "id": "6FC072AA04814657ACDA2427F1C3A18B",
+                    "keyName": "",
+                    "label": "Formation",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-5CCAA17AC7F949E4B801027838490C35",
+                "label": "Formations",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
         }
-    }],
+    ],
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
@@ -25,8 +203,6 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
-        "mobileCacheEnabled": "",
-        "mobileViewDisabled": "",
         "permission": {
             "className": "",
             "properties": {}
@@ -39,6 +215,8 @@
                 "buttonTextColor": "WHITE",
                 "fontColor": "WHITE",
                 "menuFontColor": "BLACK",
+                "mobileCacheEnabled": "",
+                "mobileViewDisabled": "",
                 "primaryColor": "INDIGO",
                 "themeScheme": "light"
             }
