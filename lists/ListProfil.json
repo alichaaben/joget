@@ -28,12 +28,39 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "",
+                    "hrefColumn": "",
+                    "hrefParam": "",
+                    "label": "Hyperlink",
+                    "target": "_self"
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "color": "",
+                    "field": "id",
+                    "formDefId": "profile",
+                    "formatting": "i",
+                    "size": ""
+                }
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
             "label": "ID",
             "name": "id",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
