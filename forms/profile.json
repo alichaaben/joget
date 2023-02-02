@@ -221,7 +221,7 @@
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
-                        "noframe": "",
+                        "noframe": "true",
                         "parentSubFormId": "",
                         "readonly": "",
                         "readonlyLabel": "",
