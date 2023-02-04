@@ -19,17 +19,6 @@
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
-            <entry>
-               <string>process1::activity4</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity4</activityDefId>
-                  <formId>formations</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
