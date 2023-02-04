@@ -81,7 +81,7 @@
                   <processDefId>process1</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
-                  <value>adminUser</value>
+                  <value>loggedInUser</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>
