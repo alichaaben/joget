@@ -7,7 +7,19 @@
          <appId>AppRH</appId>
          <id>AppRH</id>
          <name>application RH</name>
-         <packageActivityFormMap/>
+         <packageActivityFormMap>
+            <entry>
+               <string>process1::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId>profile</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+         </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
             <entry>
