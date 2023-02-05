@@ -224,9 +224,99 @@
                     "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
                         "autoPopulate": "",
-                        "id": "field11",
+                        "id": "field12",
                         "label": "",
-                        "value": "   <script>\n        const prevBtns = document.querySelectorAll(\".btn-prev\");\nconst nextBtns = document.querySelectorAll(\".btn-next\");\nconst progress = document.getElementById(\"progress\");\nconst formSteps = document.querySelectorAll(\".form-step\");\nconst progressSteps = document.querySelectorAll(\".progress-step\");\n\nlet formStepsNum = 0;\n\nnextBtns.forEach((btn) => {\n  btn.addEventListener(\"click\", () => {\n    formStepsNum++;\n    updateFormSteps();\n    updateProgressbar();\n  });\n});\n\nprevBtns.forEach((btn) => {\n  btn.addEventListener(\"click\", () => {\n    formStepsNum--;\n    updateFormSteps();\n    updateProgressbar();\n  });\n});\n\nfunction updateFormSteps() {\n  formSteps.forEach((formStep) => {\n    formStep.classList.contains(\"form-step-active\") &&\n      formStep.classList.remove(\"form-step-active\");\n  });\n\n  formSteps[formStepsNum].classList.add(\"form-step-active\");\n}\n\nfunction updateProgressbar() {\n  progressSteps.forEach((progressStep, idx) => {\n    if (idx < formStepsNum + 1) {\n      progressStep.classList.add(\"progress-step-active\");\n    } else {\n      progressStep.classList.remove(\"progress-step-active\");\n    }\n  });\n\n  const progressActive = document.querySelectorAll(\".progress-step-active\");\n\n  progress.style.width =\n    ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + \"%\";\n}\n\n    <\/script>"
+                        "value": "<div class=\"form-step form-step-active\">\n\n      "
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "id_langueGrid",
+                        "label": "LANGUES :",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "LANGUE",
+                            "value": "id_lang"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "id_competenceGrid",
+                        "label": "COMPÉTENCES :",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "COMPÉTENCE",
+                            "value": "id_compete"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "id_intererGrid",
+                        "label": "CENTRES D'INTÉRÊTS :",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "CENTRE D'INTÉRÊT",
+                            "value": "id_interet"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field15",
+                        "label": "",
+                        "value": "  <div class=\"\">\n          <a href=\"#\" class=\"btn btn-next width-50 ml-auto\">Next<\/a>\n        <\/div>\n      <\/div>"
                     }
                 }
             ],
