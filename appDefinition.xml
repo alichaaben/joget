@@ -56,15 +56,6 @@
          <packageActivityPluginMap/>
          <packageParticipantMap>
             <entry>
-               <string>process1::participant1</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>participant1</participantId>
-                  <type>user</type>
-                  <value>etta,clark,julia,tana,cat,terry,david,sasha,roy,jack,tina</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
