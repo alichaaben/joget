@@ -219,6 +219,15 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field11",
+                        "label": "",
+                        "value": "   <script>\n        const prevBtns = document.querySelectorAll(\".btn-prev\");\nconst nextBtns = document.querySelectorAll(\".btn-next\");\nconst progress = document.getElementById(\"progress\");\nconst formSteps = document.querySelectorAll(\".form-step\");\nconst progressSteps = document.querySelectorAll(\".progress-step\");\n\nlet formStepsNum = 0;\n\nnextBtns.forEach((btn) => {\n  btn.addEventListener(\"click\", () => {\n    formStepsNum++;\n    updateFormSteps();\n    updateProgressbar();\n  });\n});\n\nprevBtns.forEach((btn) => {\n  btn.addEventListener(\"click\", () => {\n    formStepsNum--;\n    updateFormSteps();\n    updateProgressbar();\n  });\n});\n\nfunction updateFormSteps() {\n  formSteps.forEach((formStep) => {\n    formStep.classList.contains(\"form-step-active\") &&\n      formStep.classList.remove(\"form-step-active\");\n  });\n\n  formSteps[formStepsNum].classList.add(\"form-step-active\");\n}\n\nfunction updateProgressbar() {\n  progressSteps.forEach((progressStep, idx) => {\n    if (idx < formStepsNum + 1) {\n      progressStep.classList.add(\"progress-step-active\");\n    } else {\n      progressStep.classList.remove(\"progress-step-active\");\n    }\n  });\n\n  const progressActive = document.querySelectorAll(\".progress-step-active\");\n\n  progress.style.width =\n    ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + \"%\";\n}\n\n    <\/script>"
+                    }
                 }
             ],
             "properties": {"width": "100%"}
