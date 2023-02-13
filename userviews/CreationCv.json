@@ -20,24 +20,15 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.plugin.enterprise.UserProfileMenu",
+                    "className": "org.joget.apps.userview.lib.HtmlPage",
                     "properties": {
-                        "customId": "idUser",
+                        "content": "<p><\/p>\n<p><\/p>\n<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\"><\/script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js\"><\/script>\n<!------ Include the above in your HEAD tag ---------->\n<div class=\"container emp-profile\"><form method=\"post\">\n<div class=\"row\">\n<div class=\"col-md-4\">\n<div class=\"profile-img\"><img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog\" alt=\"\" />\n<div class=\"file btn btn-lg btn-primary\">Change Photo <input type=\"file\" name=\"file\" /><\/div>\n<\/div>\n<\/div>\n<div class=\"col-md-6\">\n<div class=\"profile-head\">\n<h5>Kshiti Ghelani<\/h5>\n<h6>Web Developer and Designer<\/h6>\n<p class=\"proile-rating\">RANKINGS : <span>8/10<\/span><\/p>\n<ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\">\n<li class=\"nav-item\"><a class=\"nav-link active\" id=\"home-tab\" data-toggle=\"tab\" href=\"#home\" role=\"tab\" aria-controls=\"home\" aria-selected=\"true\">About<\/a><\/li>\n<li class=\"nav-item\"><a class=\"nav-link\" id=\"profile-tab\" data-toggle=\"tab\" href=\"#profile\" role=\"tab\" aria-controls=\"profile\" aria-selected=\"false\">Timeline<\/a><\/li>\n<\/ul>\n<\/div>\n<\/div>\n<div class=\"col-md-2\"><input type=\"submit\" class=\"profile-edit-btn\" name=\"btnAddMore\" value=\"Edit Profile\" /><\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-4\">\n<div class=\"profile-work\">\n<p>WORK LINK<\/p>\n<a>Website Link<\/a><br /><a>Bootsnipp Profile<\/a><br /><a>Bootply Profile<\/a>\n<p>SKILLS<\/p>\n<a>Web Designer<\/a><br /><a>Web Developer<\/a><br /><a>WordPress<\/a><br /><a>WooCommerce<\/a><br /><a>PHP, .Net<\/a><\/div>\n<\/div>\n<div class=\"col-md-8\">\n<div class=\"tab-content profile-tab\" id=\"myTabContent\">\n<div class=\"tab-pane fade show active\" id=\"home\" role=\"tabpanel\" aria-labelledby=\"home-tab\">\n<div class=\"row\">\n<div class=\"col-md-6\"><label>User Id<\/label><\/div>\n<div class=\"col-md-6\">\n<p>Kshiti123<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Name<\/label><\/div>\n<div class=\"col-md-6\">\n<p>Kshiti Ghelani<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Email<\/label><\/div>\n<div class=\"col-md-6\">\n<p>kshitighelani@gmail.com<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Phone<\/label><\/div>\n<div class=\"col-md-6\">\n<p>123 456 7890<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Profession<\/label><\/div>\n<div class=\"col-md-6\">\n<p>Web Developer and Designer<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"tab-pane fade\" id=\"profile\" role=\"tabpanel\" aria-labelledby=\"profile-tab\">\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Experience<\/label><\/div>\n<div class=\"col-md-6\">\n<p>Expert<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Hourly Rate<\/label><\/div>\n<div class=\"col-md-6\">\n<p>10$/hr<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Total Projects<\/label><\/div>\n<div class=\"col-md-6\">\n<p>230<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>English Level<\/label><\/div>\n<div class=\"col-md-6\">\n<p>Expert<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-6\"><label>Availability<\/label><\/div>\n<div class=\"col-md-6\">\n<p>6 months<\/p>\n<\/div>\n<\/div>\n<div class=\"row\">\n<div class=\"col-md-12\"><label>Your Bio<\/label><br />\n<p>Your detail description<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/form><\/div>",
+                        "customId": "idProfile",
                         "enableOffline": "",
-                        "f_email": "",
-                        "f_firstName": "",
-                        "f_lastName": "",
-                        "f_locale": "",
-                        "f_password": "",
-                        "f_timeZone": "",
-                        "f_username": "",
-                        "id": "27EF21FB49A244058FBB3E66EEA8BDB9",
+                        "id": "4141BBE5C9FA4329BBDB659C11B4778C",
                         "label": "Mon Profile",
-                        "message": "bech tsajil ou nn",
-                        "redirectURL": "",
-                        "showInPopupDialog": "Yes",
                         "userviewCacheDuration": "20",
-                        "userviewCacheScope": "application"
+                        "userviewCacheScope": ""
                     }
                 },
                 {
