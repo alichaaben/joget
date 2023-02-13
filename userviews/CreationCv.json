@@ -2,14 +2,42 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>",
+                    "customId": "welcome",
+                    "id": "3B6F25A638EF40FFAD3C5DAAC41BA98F",
+                    "label": "Welcome"
+                }
+            }],
+            "properties": {
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "className": "org.joget.plugin.enterprise.UserProfileMenu",
                     "properties": {
-                        "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>",
-                        "customId": "welcome",
-                        "id": "3B6F25A638EF40FFAD3C5DAAC41BA98F",
-                        "label": "Welcome"
+                        "customId": "idUser",
+                        "enableOffline": "",
+                        "f_email": "",
+                        "f_firstName": "",
+                        "f_lastName": "",
+                        "f_locale": "",
+                        "f_password": "",
+                        "f_timeZone": "",
+                        "f_username": "",
+                        "id": "27EF21FB49A244058FBB3E66EEA8BDB9",
+                        "label": "Mon Profile",
+                        "message": "bech tsajil ou nn",
+                        "redirectURL": "",
+                        "showInPopupDialog": "Yes",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
                     }
                 },
                 {
@@ -20,14 +48,14 @@
                         "cancelButtonLabel": "",
                         "customFooter": "",
                         "customHeader": "",
-                        "customId": "",
+                        "customId": "idCV",
                         "enableOffline": "",
                         "fieldPassover": "",
                         "fieldPassoverMethod": "append",
                         "formId": "competences",
-                        "id": "0A5FC36547F74AB4841D4D715628C951",
+                        "id": "F92EB402604240969F616BBF60878FDB",
                         "keyName": "",
-                        "label": "Form",
+                        "label": "Création de CV",
                         "loadDataWithKey": "",
                         "messageShowAfterComplete": "",
                         "paramName": "",
@@ -45,46 +73,8 @@
                 }
             ],
             "properties": {
-                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-                "label": "<i class='fa fa-home'><\/i> Home"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "actionAfterSaved": "",
-                    "actionOnCancel": "",
-                    "cancelButtonLabel": "",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "formId": "testApp",
-                    "id": "2500CA4503744586B2DC36B2C1D9CF5C",
-                    "keyName": "",
-                    "label": "Form",
-                    "loadDataWithKey": "",
-                    "messageShowAfterComplete": "",
-                    "paramName": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "redirectTargetOnCancel": "top",
-                    "redirectTargetOnComplete": "",
-                    "redirectUrlAfterComplete": "",
-                    "redirectUrlOnCancel": "",
-                    "showInPopupDialog": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            }],
-            "properties": {
-                "id": "category-A0B44B39D0DC4DA7909AFFB7FCE95E35",
-                "label": "New Category"
+                "id": "category-8224137C32D84EBBA6C4B18E10D8AF54",
+                "label": "Profile"
             }
         }
     ],
