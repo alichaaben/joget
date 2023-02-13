@@ -31,7 +31,7 @@
                         "enableOffline": "",
                         "fieldPassover": "",
                         "fieldPassoverMethod": "append",
-                        "formId": "profile",
+                        "formId": "idProfile",
                         "id": "E008B8AC6087468F9140A7168FBB129C",
                         "keyName": "",
                         "label": "profile",
