@@ -37,7 +37,7 @@
                         "redirectURL": "",
                         "showInPopupDialog": "Yes",
                         "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
+                        "userviewCacheScope": "application"
                     }
                 },
                 {
