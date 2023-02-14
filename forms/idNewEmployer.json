@@ -7,7 +7,7 @@
             "elements": [{
                 "className": "org.joget.apps.form.lib.TextField",
                 "properties": {
-                    "id": "idDescTest",
+                    "id": "description",
                     "label": "description",
                     "maxlength": "",
                     "placeholder": "",
