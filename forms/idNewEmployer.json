@@ -178,7 +178,7 @@
         "description": "",
         "id": "idNewEmployer",
         "loadBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "className": "",
             "properties": {}
         },
         "name": "ajouter un nouvelle employé",
