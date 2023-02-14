@@ -57,12 +57,32 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "color": "",
+                    "field": "",
+                    "formDefId": "",
+                    "formatting": "code",
+                    "size": ""
+                }
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_4",
-            "label": "idCompetDemander",
+            "label": "Compétences Demandées",
             "name": "idCompetDemander",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
