@@ -77,19 +77,63 @@
                     "className": "org.joget.apps.form.lib.Grid",
                     "properties": {
                         "errorMessage": "Invalid number of rows",
-                        "id": "field3",
-                        "label": "Grid",
-                        "readonly": "False"
+                        "id": "idCompetDemander",
+                        "label": "COMPÉTENCES DEMANDÉES :",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "id": "field5",
-                        "label": "Select Box",
-                        "multiple": "False",
-                        "readonly": "False",
-                        "readonlyLabel": "False"
+                        "controlField": "",
+                        "id": "idDepartement",
+                        "label": "DÉPARTEMENTS:",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "technology consulting",
+                                "value": "TC"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "software engineering",
+                                "value": "SE"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Management Consulting",
+                                "value": "MC"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
