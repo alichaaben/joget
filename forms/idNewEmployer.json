@@ -4,26 +4,90 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [{
-                "className": "org.joget.apps.form.lib.TextField",
-                "properties": {
-                    "id": "description",
-                    "label": "Description",
-                    "maxlength": "",
-                    "placeholder": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "size": "",
-                    "storeNumeric": "",
-                    "style": "",
-                    "validator": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "value": "",
-                    "workflowVariable": ""
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "id",
+                        "label": "id",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "user_name",
+                        "label": "user_name",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "field3",
+                        "label": "Text Field",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.PasswordField",
+                    "properties": {
+                        "id": "field4",
+                        "label": "Password Field",
+                        "readonly": "False",
+                        "readonlyLabel": "False"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "field5",
+                        "label": "Text Field",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "field6",
+                        "label": "Text Field",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
                 }
-            }],
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
@@ -32,13 +96,8 @@
             "join": "",
             "label": "Nouvelle Employé",
             "loadBinder": {
-                "className": "org.joget.apps.form.lib.BeanShellFormBinder",
-                "properties": {
-                    "autoHandleFiles": "",
-                    "autoHandleWorkflowVariable": "true",
-                    "cacheInterval": "",
-                    "script": "import org.joget.apps.form.model.*;\n \nFormRowSet f = new FormRowSet();\nFormRow r1 = new FormRow();\nr1.put(\"description\", \"#currentUser.username#\");\nf.add(r1);\n \nreturn f;"
-                }
+                "className": "",
+                "properties": {}
             },
             "permission": {
                 "className": "",
