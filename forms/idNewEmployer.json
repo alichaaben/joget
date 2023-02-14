@@ -32,8 +32,13 @@
             "join": "",
             "label": "Nouvelle Employé",
             "loadBinder": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                "properties": {
+                    "autoHandleFiles": "",
+                    "autoHandleWorkflowVariable": "true",
+                    "cacheInterval": "",
+                    "script": "import org.joget.apps.form.model.*;\n \nFormRowSet f = new FormRowSet();\nFormRow r1 = new FormRow();\nr1.put(\"description\", \"hello world\");\nf.add(r1);\n \nreturn f;"
+                }
             },
             "permission": {
                 "className": "",
@@ -45,13 +50,8 @@
             "regex": "",
             "reverse": "",
             "storeBinder": {
-                "className": "org.joget.apps.form.lib.BeanShellFormBinder",
-                "properties": {
-                    "autoHandleFiles": "",
-                    "autoHandleWorkflowVariable": "true",
-                    "cacheInterval": "",
-                    "script": "import org.joget.apps.form.model.*;\n \nFormRowSet f = new FormRowSet();\nFormRow r1 = new FormRow();\nr1.put(\"description\", \"hello world\");\nf.add(r1);\n \nreturn f;"
-                }
+                "className": "",
+                "properties": {}
             },
             "visibilityControl": "",
             "visibilityValue": ""
