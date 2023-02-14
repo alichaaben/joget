@@ -39,6 +39,11 @@
                         "options": [
                             {
                                 "grouping": "",
+                                "label": "",
+                                "value": ""
+                            },
+                            {
+                                "grouping": "",
                                 "label": "inférieur a 1 an",
                                 "value": "1"
                             },
