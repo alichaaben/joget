@@ -140,11 +140,18 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "cols": "20",
-                        "id": "field6",
-                        "label": "Text Area",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "rows": "5"
+                        "id": "idDiscProjet",
+                        "label": "DESCRIPTION DE PROJET :",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "rows": "5",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 }
             ],
