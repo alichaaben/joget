@@ -17,11 +17,8 @@
                     "storeNumeric": "",
                     "style": "",
                     "validator": {
-                        "className": "org.joget.apps.form.lib.BeanShellValidator",
-                        "properties": {
-                            "decoration": "",
-                            "script": "import org.joget.apps.form.model.*;\n \nFormRowSet f = new FormRowSet();\nFormRow r1 = new FormRow();\nr1.put(\"description\", \"hello world\");\nf.add(r1);\n \nreturn f;"
-                        }
+                        "className": "",
+                        "properties": {}
                     },
                     "value": "",
                     "workflowVariable": ""
