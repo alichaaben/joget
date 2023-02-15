@@ -386,6 +386,25 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.UniversalInboxMenu",
+                    "properties": {
+                        "assignment-customFooter": "",
+                        "assignment-customHeader": "",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "customId": "",
+                        "enableOffline": "",
+                        "id": "54271696AA1A4FF5A3F3FBAE514EB70D",
+                        "label": "boite de réception",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "rowCount": "",
+                        "showPopup": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
