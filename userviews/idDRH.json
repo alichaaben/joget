@@ -1,115 +1,216 @@
 {
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [
-            {
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "actionAfterSaved": "",
-                    "actionOnCancel": "",
-                    "cancelButtonLabel": "",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "idStat",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "formId": "idProfile",
-                    "id": "75B9CC5378DD4E40AE424099F541A6A8",
-                    "keyName": "",
-                    "label": "statistique des employés",
-                    "loadDataWithKey": "",
-                    "messageShowAfterComplete": "",
-                    "paramName": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "redirectTargetOnCancel": "top",
-                    "redirectTargetOnComplete": "",
-                    "redirectUrlAfterComplete": "",
-                    "redirectUrlOnCancel": "",
-                    "showInPopupDialog": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "idStat",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "idProfile",
+                        "id": "75B9CC5378DD4E40AE424099F541A6A8",
+                        "keyName": "",
+                        "label": "statistique des employés",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "idAddEmpl",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "idNewEmployer",
+                        "id": "2192D184ABAC4BA9B1232AE8618431A0",
+                        "keyName": "",
+                        "label": "Ajouter un employé",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "idListeEmp",
+                        "datalistId": "idListeEmploye",
+                        "enableOffline": "",
+                        "id": "72CA61369BE042D99AF8DD0C97C06036",
+                        "keyName": "",
+                        "label": "Liste des employés",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.UniversalInboxMenu",
+                    "properties": {
+                        "assignment-customFooter": "",
+                        "assignment-customHeader": "",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "customId": "",
+                        "enableOffline": "",
+                        "id": "00461C5A0D0043048EA0A721353F27D6",
+                        "label": "boite de réception",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "rowCount": "",
+                        "showPopup": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "actionAfterSaved": "",
-                    "actionOnCancel": "",
-                    "cancelButtonLabel": "",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "idAddEmpl",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "formId": "idNewEmployer",
-                    "id": "2192D184ABAC4BA9B1232AE8618431A0",
-                    "keyName": "",
-                    "label": "Ajouter un employé",
-                    "loadDataWithKey": "",
-                    "messageShowAfterComplete": "",
-                    "paramName": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "redirectTargetOnCancel": "top",
-                    "redirectTargetOnComplete": "",
-                    "redirectUrlAfterComplete": "",
-                    "redirectUrlOnCancel": "",
-                    "showInPopupDialog": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.DataListMenu",
-                "properties": {
-                    "buttonPosition": "bottomLeft",
-                    "cacheAllLinks": "",
-                    "cacheListAction": "",
-                    "checkboxPosition": "left",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "idListeEmp",
-                    "datalistId": "idListeEmploye",
-                    "enableOffline": "",
-                    "id": "72CA61369BE042D99AF8DD0C97C06036",
-                    "keyName": "",
-                    "label": "Liste des employés",
-                    "rowCount": "",
-                    "selectionType": "multiple",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            },
-            {
-                "className": "org.joget.plugin.enterprise.UniversalInboxMenu",
-                "properties": {
-                    "assignment-customFooter": "",
-                    "assignment-customHeader": "",
-                    "buttonPosition": "bottomLeft",
-                    "cacheAllLinks": "",
-                    "customId": "",
-                    "enableOffline": "",
-                    "id": "00461C5A0D0043048EA0A721353F27D6",
-                    "label": "boite de réception",
-                    "list-customFooter": "",
-                    "list-customHeader": "",
-                    "rowCount": "",
-                    "showPopup": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
+            ],
+            "properties": {
+                "id": "category-E6D4D4C1E1F346169938C37CDA38E5F5",
+                "label": "gestion des employés"
             }
-        ],
-        "properties": {
-            "id": "category-E6D4D4C1E1F346169938C37CDA38E5F5",
-            "label": "gestion des employés"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "idCreaModel",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "idCreationModel",
+                        "id": "8218D3DC2EF34D4682E04FCCB16A7A76",
+                        "keyName": "",
+                        "label": "création des Modelés",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "datalistId": "idListeModeleDeCV",
+                        "enableOffline": "",
+                        "id": "F03795EA3C5344A780E9496F80E99860",
+                        "keyName": "",
+                        "label": "Liste des modelés",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                }
+            ],
+            "properties": {
+                "id": "category-84936E65C7614E6880443B544239045C",
+                "label": "gestion des Modelés"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "idGernerCV",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "idGenereCV",
+                    "id": "B3728D9B2C5641FAAEE42A99209ABDD8",
+                    "keyName": "",
+                    "label": "génération de CV",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "id": "category-7B6545F2B6854CCEA94E42BB70FA67E9",
+                "label": "gestion des CV généré"
+            }
         }
-    }],
+    ],
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
