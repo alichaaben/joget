@@ -10,7 +10,7 @@
                     "autoPopulate": "",
                     "id": "field1",
                     "label": "",
-                    "value": "<h1 style=\"color=red;\">La création de la modèle de CV ici<\/h1>"
+                    "value": "<h1>La création de la modèle de CV ici<\/h1>"
                 }
             }],
             "properties": {"width": "100%"}
