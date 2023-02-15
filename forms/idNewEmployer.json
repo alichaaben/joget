@@ -8,26 +8,6 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "id",
-                        "label": "id",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
                         "id": "username",
                         "label": "user name",
                         "maxlength": "",
@@ -43,22 +23,6 @@
                         },
                         "value": "",
                         "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.PasswordField",
-                    "properties": {
-                        "id": "password",
-                        "label": "password",
-                        "maxlength": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": ""
                     }
                 },
                 {
@@ -113,6 +77,72 @@
                         "size": "",
                         "storeNumeric": "",
                         "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.PasswordField",
+                    "properties": {
+                        "id": "idPass",
+                        "label": "mot de passe",
+                        "maxlength": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.PasswordField",
+                    "properties": {
+                        "id": "idConfPass",
+                        "label": "confirmation mot de passe",
+                        "maxlength": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "idRole",
+                        "label": "rôle",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Admin",
+                                "value": "admin"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "User",
+                                "value": "user"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
                         "validator": {
                             "className": "",
                             "properties": {}
