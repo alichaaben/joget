@@ -152,24 +152,61 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "id": "active",
-                        "label": "active",
-                        "maxlength": "",
-                        "placeholder": "",
+                        "controlField": "",
+                        "id": "idTimeZone",
+                        "label": "time zone",
+                        "multiple": "",
+                        "options": [{
+                            "grouping": "",
+                            "label": "",
+                            "value": ""
+                        }],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
-                        "storeNumeric": "",
-                        "style": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": "numeric"
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "idStatus",
+                        "label": "Status",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Active",
+                                "value": "1"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Inactive",
+                                "value": "0"
                             }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
                         },
                         "value": "",
                         "workflowVariable": ""
