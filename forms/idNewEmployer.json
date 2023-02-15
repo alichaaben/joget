@@ -338,41 +338,47 @@
                     {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
-                            "id": "field14",
-                            "label": "Select Box",
-                            "multiple": "False",
-                            "readonly": "False",
-                            "readonlyLabel": "False"
+                            "controlField": "",
+                            "id": "idDepart",
+                            "label": "Department",
+                            "multiple": "",
+                            "options": [],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
                         }
                     },
                     {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
-                            "id": "field15",
-                            "label": "Select Box",
-                            "multiple": "False",
-                            "readonly": "False",
-                            "readonlyLabel": "False"
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "id": "field16",
-                            "label": "Select Box",
-                            "multiple": "False",
-                            "readonly": "False",
-                            "readonlyLabel": "False"
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "id": "field17",
-                            "label": "Select Box",
-                            "multiple": "False",
-                            "readonly": "False",
-                            "readonlyLabel": "False"
+                            "controlField": "",
+                            "id": "idGrade",
+                            "label": "Grade",
+                            "multiple": "",
+                            "options": [],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
                         }
                     }
                 ],
