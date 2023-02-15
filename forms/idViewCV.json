@@ -4,7 +4,15 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.CustomHTML",
+                "properties": {
+                    "autoPopulate": "",
+                    "id": "field1",
+                    "label": "",
+                    "value": "<h1>Affichage de CV complète<\/h1>"
+                }
+            }],
             "properties": {"width": "100%"}
         }],
         "properties": {
