@@ -4,6 +4,18 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
+                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "properties": {
+                        "content": "<h1>hhhhh<\/h1>\n<p><\/p>\n<h1>#currentUser.username#<\/h1>",
+                        "customId": "",
+                        "enableOffline": "",
+                        "id": "C2D7ADFC1FFE45F7A02B9D060EECB245",
+                        "label": "HTML Page",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
                         "actionAfterSaved": "",
