@@ -4,27 +4,6 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.plugin.enterprise.UserProfileMenu",
-                    "properties": {
-                        "customId": "",
-                        "enableOffline": "",
-                        "f_email": "readonly",
-                        "f_firstName": "readonly",
-                        "f_lastName": "readonly",
-                        "f_locale": "",
-                        "f_password": "",
-                        "f_timeZone": "",
-                        "f_username": "",
-                        "id": "F6B44E5BC653466D9A1010B3CA00B648",
-                        "label": "User Profile",
-                        "message": "",
-                        "redirectURL": "",
-                        "showInPopupDialog": "Yes",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
                         "actionAfterSaved": "",
