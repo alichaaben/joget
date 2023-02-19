@@ -519,14 +519,14 @@
         "theme": {
             "className": "org.joget.plugin.enterprise.ProgressiveTheme",
             "properties": {
-                "accentColor": "DEEP_GREY",
+                "accentColor": "WHITE",
                 "buttonColor": "GREY",
                 "buttonTextColor": "DEEP_GREY",
                 "css": "",
                 "customMenuFontColor": "#4682B4",
                 "customPrimary": "#062C4B",
                 "customPrimaryDark": "#062C4B",
-                "customPrimaryLight": "#062C4B",
+                "customPrimaryLight": "#FFFFFF",
                 "disableHelpGuide": "",
                 "disablePush": "",
                 "disablePwa": "",
