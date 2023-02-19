@@ -533,7 +533,7 @@
                 "fontControl": "",
                 "homeAttractBanner": "",
                 "homeUrl": "",
-                "horizontal_menu": "no",
+                "horizontal_menu": "true",
                 "inbox": "current",
                 "js": "",
                 "loginPageBottom": "",
