@@ -521,9 +521,9 @@
             "properties": {
                 "accentColor": "DEEP_GREY",
                 "buttonColor": "GREY",
-                "buttonTextColor": "WHITE",
+                "buttonTextColor": "DEEP_GREY",
                 "css": "",
-                "customMenuFontColor": "#6387A5",
+                "customMenuFontColor": "#FFFFFF",
                 "disableHelpGuide": "",
                 "disablePush": "",
                 "disablePwa": "",
