@@ -519,13 +519,10 @@
         "theme": {
             "className": "org.joget.plugin.enterprise.ProgressiveTheme",
             "properties": {
-                "accentColor": "SILVER",
+                "accentColor": "DEEP_GREY",
                 "buttonColor": "GREY",
                 "buttonTextColor": "WHITE",
                 "css": "",
-                "customPrimary": "#FFFFFF",
-                "customPrimaryDark": "#4682B4",
-                "customPrimaryLight": "#4682B4",
                 "disableHelpGuide": "",
                 "disablePush": "",
                 "disablePwa": "",
@@ -543,7 +540,7 @@
                 "loginPageTop": "",
                 "logo": "",
                 "menuFontColor": "BLACK",
-                "primaryColor": "custom",
+                "primaryColor": "INDIGO",
                 "profile": "",
                 "removeAssignmentTitle": "",
                 "shortcut": [],
