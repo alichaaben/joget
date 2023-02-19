@@ -519,12 +519,10 @@
         "theme": {
             "className": "org.joget.plugin.enterprise.ProgressiveTheme",
             "properties": {
-                "accentColor": "custom",
+                "accentColor": "SILVER",
                 "buttonColor": "GREY",
                 "buttonTextColor": "WHITE",
                 "css": "",
-                "customAccent": "#B0C4DE",
-                "customAccentLight": "#B0C4DE",
                 "customPrimary": "#FFFFFF",
                 "customPrimaryDark": "#4682B4",
                 "customPrimaryLight": "#4682B4",
