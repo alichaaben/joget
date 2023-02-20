@@ -231,7 +231,25 @@
                             "errorMessage": "Invalid number of rows",
                             "id": "field5",
                             "label": "Grid",
-                            "readonly": "False"
+                            "loadBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "options": [{
+                                "label": "LANGUE",
+                                "value": ""
+                            }],
+                            "readonly": "",
+                            "storeBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "validateMaxRow": "",
+                            "validateMinRow": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            }
                         }
                     }
                 ],
