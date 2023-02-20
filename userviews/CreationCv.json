@@ -488,7 +488,7 @@
         "theme": {
             "className": "org.joget.plugin.enterprise.ProgressiveTheme",
             "properties": {
-                "accentColor": "WHITE",
+                "accentColor": "DEEP_GREY",
                 "buttonColor": "custom",
                 "buttonTextColor": "WHITE",
                 "css": "",
