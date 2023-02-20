@@ -136,33 +136,6 @@
                                 "properties": {}
                             }
                         }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.Grid",
-                        "properties": {
-                            "errorMessage": "Invalid number of rows",
-                            "id": "id_intererGrid",
-                            "label": "CENTRES D'INTÉRÊTS :",
-                            "loadBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "options": [{
-                                "label": "CENTRE D'INTÉRÊT",
-                                "value": "id_interet"
-                            }],
-                            "readonly": "",
-                            "storeBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "validateMaxRow": "",
-                            "validateMinRow": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            }
-                        }
                     }
                 ],
                 "properties": {"width": "100%"}
