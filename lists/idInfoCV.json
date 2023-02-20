@@ -27,7 +27,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "action",
-                "href": "",
+                "href": "profile",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "Edit",
