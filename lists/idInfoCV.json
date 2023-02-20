@@ -31,7 +31,7 @@
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "Edit",
-                "target": "_self",
+                "target": "_blank",
                 "visible": ""
             },
             "type": "text"
