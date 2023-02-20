@@ -28,7 +28,7 @@
                 "confirmation": "",
                 "datalist_type": "action",
                 "href": "profile",
-                "hrefColumn": "id",
+                "hrefColumn": "id_competenceGrid",
                 "hrefParam": "id",
                 "label": "Edit",
                 "target": "_blank",
