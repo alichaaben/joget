@@ -10,7 +10,7 @@
                         "customId": "idProfile",
                         "enableOffline": "",
                         "id": "F0C91F2D4508413FA59B335493FF30DA",
-                        "label": "User profil",
+                        "label": "Profile",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
@@ -30,7 +30,7 @@
                         "formId": "profile",
                         "id": "F92EB402604240969F616BBF60878FDB",
                         "keyName": "",
-                        "label": "Création de CV",
+                        "label": "Ajouter les informations liées aux CV",
                         "loadDataWithKey": "",
                         "messageShowAfterComplete": "",
                         "paramName": "",
