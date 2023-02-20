@@ -170,51 +170,71 @@
             "className": "org.joget.apps.form.model.Section",
             "elements": [{
                 "className": "org.joget.apps.form.model.Column",
-                "elements": [{
-                    "className": "org.joget.apps.form.lib.Grid",
-                    "properties": {
-                        "errorMessage": "Invalid number of rows",
-                        "id": "id_formation_Grid",
-                        "label": "Formations :",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "options": [
-                            {
-                                "label": "DATE DE DÉBUT",
-                                "value": "id_dateDebutForma"
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.Grid",
+                        "properties": {
+                            "errorMessage": "Invalid number of rows",
+                            "id": "id_formation_Grid",
+                            "label": "Formations :",
+                            "loadBinder": {
+                                "className": "",
+                                "properties": {}
                             },
-                            {
-                                "label": "DATE DE FIN",
-                                "value": "id_dateFinForma"
+                            "options": [
+                                {
+                                    "label": "DATE DE DÉBUT",
+                                    "value": "id_dateDebutForma"
+                                },
+                                {
+                                    "label": "DATE DE FIN",
+                                    "value": "id_dateFinForma"
+                                },
+                                {
+                                    "label": "DIPLÔME",
+                                    "value": "id_diplome"
+                                },
+                                {
+                                    "label": "ETABLISSEMENT",
+                                    "value": "id_etablisement"
+                                },
+                                {
+                                    "label": "DESCRIPTION",
+                                    "value": "id_discriptionForma"
+                                }
+                            ],
+                            "readonly": "",
+                            "storeBinder": {
+                                "className": "",
+                                "properties": {}
                             },
-                            {
-                                "label": "DIPLÔME",
-                                "value": "id_diplome"
-                            },
-                            {
-                                "label": "ETABLISSEMENT",
-                                "value": "id_etablisement"
-                            },
-                            {
-                                "label": "DESCRIPTION",
-                                "value": "id_discriptionForma"
+                            "validateMaxRow": "",
+                            "validateMinRow": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
                             }
-                        ],
-                        "readonly": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field6",
+                            "label": "",
+                            "value": "<style>\n    \n    \n<\/style>"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.Grid",
+                        "properties": {
+                            "errorMessage": "Invalid number of rows",
+                            "id": "field5",
+                            "label": "Grid",
+                            "readonly": "False"
                         }
                     }
-                }],
+                ],
                 "properties": {"width": "100%"}
             }],
             "properties": {
