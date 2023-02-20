@@ -490,9 +490,10 @@
             "properties": {
                 "accentColor": "WHITE",
                 "buttonColor": "custom",
-                "buttonTextColor": "WHITE",
+                "buttonTextColor": "custom",
                 "css": "",
                 "customButton": "#062C4B",
+                "customButtonText": "#A52A28",
                 "customMenuFontColor": "#283758",
                 "customPrimary": "#062C4B",
                 "customPrimaryDark": "#062C4B",
