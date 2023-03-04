@@ -224,26 +224,12 @@
             "width": ""
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
-            "id": "column_7",
-            "label": "Description",
-            "name": "idDescProfil",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "id": "column_9",
+            "label": "Numéro de téléphone :",
+            "name": "idTele",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
