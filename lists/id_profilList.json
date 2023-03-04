@@ -140,7 +140,7 @@
         "type": {
             "className": "org.joget.FullTextSearch",
             "properties": {
-                "columns": "id",
+                "columns": "idAdress;idAdressEmail;id;idExperience;idNom;idTele;idPrenom",
                 "searchCondition": "OR",
                 "useCustomQuery": ""
             }
