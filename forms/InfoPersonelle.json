@@ -340,7 +340,7 @@
                         "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "idExperience",
-                        "id": "idExperienceSubForm",
+                        "id": "idExperience",
                         "label": "Ajouter un expérience",
                         "loadBinder": {
                             "className": "",
@@ -405,8 +405,8 @@
                         "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "id_formation",
-                        "id": "idSubFormation",
-                        "label": "Ajouter un formation",
+                        "id": "idFormation",
+                        "label": "Ajouter un Formation",
                         "loadBinder": {
                             "className": "",
                             "properties": {}
