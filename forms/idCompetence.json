@@ -26,55 +26,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "controlField": "",
-                        "id": "idNiveau",
-                        "label": "NIVEAU :",
-                        "multiple": "",
-                        "options": [
-                            {
-                                "grouping": "",
-                                "label": "Débutant(e)",
-                                "value": "D"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Intermédiaire",
-                                "value": "I"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Bien",
-                                "value": "B"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Très bien",
-                                "value": "TB"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Excellent",
-                                "value": "EX"
-                            }
-                        ],
-                        "optionsBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
                     "className": "org.joget.rangeSliderField",
                     "properties": {
                         "defaultValue": "50",
