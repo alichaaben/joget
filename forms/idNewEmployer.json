@@ -23,6 +23,14 @@
                         }
                     },
                     {
+                        "className": "org.joget.plugin.SectionWizard",
+                        "properties": {
+                            "clickableStep": "",
+                            "id": "field16",
+                            "sections": "section1,section2"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "id": "username",
