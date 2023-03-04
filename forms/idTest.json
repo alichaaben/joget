@@ -4,14 +4,24 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [{
-                "className": "org.joget.plugin.SectionWizard",
-                "properties": {
-                    "clickableStep": "",
-                    "id": "field1",
-                    "sections": "idCV,idCreaModel"
+            "elements": [
+                {
+                    "className": "org.joget.plugin.SectionWizard",
+                    "properties": {
+                        "clickableStep": "",
+                        "id": "field1",
+                        "sections": "idCV,idCreaModel"
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.SectionWizard",
+                    "properties": {
+                        "clickableStep": "",
+                        "id": "field1",
+                        "sections": "idCV,idCreaModel"
+                    }
                 }
-            }],
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
