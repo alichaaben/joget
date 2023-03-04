@@ -75,7 +75,12 @@
                     }
                 }
             ],
-            "properties": {"width": "100%"}
+            "properties": {
+                "customWidth": "80px",
+                "horizontal": "",
+                "label": "",
+                "width": "80px"
+            }
         }],
         "properties": {
             "comment": "",
