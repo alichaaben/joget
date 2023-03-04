@@ -130,7 +130,22 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-7375260-fn_id",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "Search",
+        "name": "id",
+        "type": {
+            "className": "org.joget.FullTextSearch",
+            "properties": {
+                "columns": "id",
+                "searchCondition": "OR",
+                "useCustomQuery": ""
+            }
+        }
+    }],
     "id": "id_profilList",
     "name": "liste de profil",
     "order": "",
