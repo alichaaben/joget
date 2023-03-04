@@ -280,6 +280,25 @@
                 "visibilityControl": "",
                 "visibilityValue": ""
             }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.plugin.SectionWizard",
+                    "properties": {
+                        "clickableStep": "true",
+                        "id": "field7",
+                        "sections": "id_experience,id_competence,id_formastion_section"
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "id": "section4",
+                "label": "Section"
+            }
         }
     ],
     "properties": {
