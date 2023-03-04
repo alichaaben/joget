@@ -275,7 +275,7 @@
                         "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "idCompetence",
-                        "id": "field1",
+                        "id": "idSubCompetence",
                         "label": "Ajouter un Compétence",
                         "loadBinder": {
                             "className": "",
@@ -300,7 +300,7 @@
             }],
             "properties": {
                 "comment": "",
-                "id": "idCompetence",
+                "id": "idCompetence_1",
                 "join": "",
                 "label": "Compétence",
                 "loadBinder": {
