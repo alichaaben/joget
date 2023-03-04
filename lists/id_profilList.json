@@ -27,7 +27,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "action",
-                "href": "",
+                "href": "idCV",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "Édit",
