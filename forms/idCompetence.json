@@ -96,16 +96,8 @@
             "regex": "",
             "reverse": "",
             "storeBinder": {
-                "className": "org.joget.marketplace.MultiStoreBinders",
-                "properties": {
-                    "autoHandleFiles": "",
-                    "autoHandleWorkflowVariable": "true",
-                    "binders": [{
-                        "className": "org.joget.apps.form.lib.DefaultFormBinder",
-                        "properties": {}
-                    }],
-                    "comment": ""
-                }
+                "className": "",
+                "properties": {}
             },
             "visibilityControl": "",
             "visibilityValue": ""
