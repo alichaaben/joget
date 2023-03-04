@@ -94,7 +94,7 @@
             ],
             "properties": {
                 "id": "category-8224137C32D84EBBA6C4B18E10D8AF54",
-                "label": "<i class=\"fa fa-user-o\" aria-hidden=\"true\"><\/i> Profile"
+                "label": "<i class=\"fas fa-user-tie\"><\/i> Profile"
             }
         },
         {
@@ -205,7 +205,7 @@
             ],
             "properties": {
                 "id": "category-CC0203E2AF434AB3A5B6C71052E60247",
-                "label": "gestion des employés"
+                "label": "<i class=\"fas fa-users-cog\"><\/i> gestion des employés"
             }
         },
         {
@@ -266,7 +266,7 @@
             ],
             "properties": {
                 "id": "category-822D742C2D2C4B609C8871750121E3EB",
-                "label": "gestion des Modelés"
+                "label": "<i class=\"fas fa-file-contract\"><\/i> gestion des Modelés"
             }
         },
         {
@@ -327,87 +327,7 @@
             ],
             "properties": {
                 "id": "category-D33EE193639F471E83074C1F2ED5BF6E",
-                "label": "gestion des CV généré"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "idDemandeProfile",
-                        "id": "0723C0CF363F4F03917681857748EDFC",
-                        "keyName": "",
-                        "label": "Ajouter un demande des profiles",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "datalistId": "idListDemProfile",
-                        "enableOffline": "",
-                        "id": "A58EC84FC8064444B089E08DD4406436",
-                        "keyName": "",
-                        "label": "Liste des demande des profiles",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.plugin.enterprise.UniversalInboxMenu",
-                    "properties": {
-                        "assignment-customFooter": "",
-                        "assignment-customHeader": "",
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "id": "8A1DE3444C1A44B8AD656907AEBF3EE2",
-                        "label": "Boite de réception",
-                        "list-customFooter": "",
-                        "list-customHeader": "",
-                        "rowCount": "",
-                        "showPopup": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                }
-            ],
-            "properties": {
-                "id": "category-28E9D8FDF8F54371AA0DDA3D537C299F",
-                "label": "Demande des profiles"
+                "label": "<i class=\"fas fa-file-upload\"><\/i> gestion des CV généré"
             }
         },
         {
@@ -489,45 +409,7 @@
             ],
             "properties": {
                 "id": "category-AA5D8A5D232E452AB4DEA64834FA09B0",
-                "label": "gestion des projets"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "actionAfterSaved": "",
-                    "actionOnCancel": "",
-                    "cancelButtonLabel": "",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "formId": "idTest",
-                    "id": "28BA330E245145AAA39C867A0EE2D3F9",
-                    "keyName": "",
-                    "label": "Form",
-                    "loadDataWithKey": "",
-                    "messageShowAfterComplete": "",
-                    "paramName": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "redirectTargetOnCancel": "top",
-                    "redirectTargetOnComplete": "",
-                    "redirectUrlAfterComplete": "",
-                    "redirectUrlOnCancel": "",
-                    "showInPopupDialog": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            }],
-            "properties": {
-                "id": "category-316CF11633C5413DAA084D0FBE740BCE",
-                "label": "New Category"
+                "label": "<i class=\"fas fa-clipboard-list\"><\/i> gestion des projets"
             }
         }
     ],
