@@ -78,18 +78,6 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
-                    "properties": {
-                        "content": "<p>#datalist.html.myDataList#<\/p>",
-                        "customId": "",
-                        "enableOffline": "",
-                        "id": "CC6869394103442297FC530CB050D6BC",
-                        "label": "HTML Page",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
                 }
             ],
             "properties": {
