@@ -76,10 +76,10 @@
                 }
             ],
             "properties": {
-                "customWidth": "80px",
+                "customWidth": "",
                 "horizontal": "",
                 "label": "",
-                "width": "80px"
+                "width": "100%"
             }
         }],
         "properties": {
