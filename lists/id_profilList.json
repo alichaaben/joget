@@ -13,6 +13,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_8",
+            "label": "Photo :",
+            "name": "idPhotot",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "Prénom :",
             "name": "idPrenom",
