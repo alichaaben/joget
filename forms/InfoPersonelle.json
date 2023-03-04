@@ -275,8 +275,8 @@
                         "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "idCompetence",
-                        "id": "idSubCompetence",
-                        "label": "Ajouter un Compétence",
+                        "id": "idCompetence",
+                        "label": "Ajouter un compétence",
                         "loadBinder": {
                             "className": "",
                             "properties": {}
@@ -470,7 +470,7 @@
                         "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "inLangue",
-                        "id": "idSubLangue",
+                        "id": "idLange",
                         "label": "Ajouter un Langue",
                         "loadBinder": {
                             "className": "",
