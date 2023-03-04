@@ -524,15 +524,12 @@
         },
         "tempDisablePermissionChecking": "",
         "theme": {
-            "className": "org.joget.plugin.enterprise.CorporatiTheme",
+            "className": "org.joget.apps.userview.lib.DefaultTheme",
             "properties": {
-                "collapsibleMenu": "",
-                "colorScheme": "silver",
+                "beforeContent": "",
                 "css": "",
-                "cssUrl": "",
-                "customBanner": "",
+                "customFooter": "",
                 "customHeader": "",
-                "disableHelpGuide": "",
                 "js": "",
                 "loginPageBottom": "",
                 "loginPageTop": "",
@@ -547,7 +544,9 @@
                 "mobileViewLogoHeight": "",
                 "mobileViewLogoUrl": "",
                 "mobileViewLogoWidth": "",
-                "mobileViewTranslucent": "true"
+                "mobileViewTranslucent": "true",
+                "pageBottom": "",
+                "pageTop": ""
             }
         },
         "userviewDescription": "",
