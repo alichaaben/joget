@@ -1,0 +1,17 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "",
+        "name": "",
+        "properties": {}
+    },
+    "columns": [],
+    "description": "",
+    "filters": [],
+    "id": "id_profilList",
+    "name": "liste de profil",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "rowActions": []
+}
