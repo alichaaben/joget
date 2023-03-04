@@ -522,7 +522,7 @@
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "Powered by Wevioo",
         "id": "CreationCv",
         "logoutText": "Logout",
         "name": "Création de CV",
