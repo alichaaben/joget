@@ -35,6 +35,28 @@
                 "visible": ""
             },
             "type": "text"
+        },
+        {
+            "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+            "icon": "",
+            "id": "action_2",
+            "label": "Download PDF",
+            "name": "Download PDF Datalist Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "action",
+                "footerHtml": "",
+                "formDefId": "InfoPersonelle",
+                "formatting": "",
+                "headerHtml": "",
+                "hideEmptyValueField": "",
+                "label": "Download PDF",
+                "recordIdColumn": "id",
+                "repeatFooter": "",
+                "repeatHeader": "",
+                "showNotSelectedOptions": ""
+            },
+            "type": "text"
         }
     ],
     "binder": {
@@ -149,6 +171,7 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [{
         "datalist_type": "filter",
         "filterParamName": "d-7375260-fn_id",
@@ -165,13 +188,28 @@
             }
         }
     }],
+    "hidePageSize": "",
     "id": "id_profilList",
     "name": "liste de profil",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
