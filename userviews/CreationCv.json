@@ -524,8 +524,31 @@
         },
         "tempDisablePermissionChecking": "",
         "theme": {
-            "className": "org.joget.plugin.enterprise.UniversalTheme",
-            "properties": {}
+            "className": "org.joget.plugin.enterprise.CorporatiTheme",
+            "properties": {
+                "collapsibleMenu": "",
+                "colorScheme": "silver",
+                "css": "",
+                "cssUrl": "",
+                "customBanner": "",
+                "customHeader": "",
+                "disableHelpGuide": "",
+                "js": "",
+                "loginPageBottom": "",
+                "loginPageTop": "",
+                "mobileCacheEnabled": "",
+                "mobileLoginRequired": "",
+                "mobileViewBackgroundColor": "",
+                "mobileViewBackgroundStyle": "repeat",
+                "mobileViewBackgroundUrl": "",
+                "mobileViewCustomCss": "",
+                "mobileViewDisabled": "",
+                "mobileViewLogoAlign": "left",
+                "mobileViewLogoHeight": "",
+                "mobileViewLogoUrl": "",
+                "mobileViewLogoWidth": "",
+                "mobileViewTranslucent": "true"
+            }
         },
         "userviewDescription": "",
         "userview_thumbnail": ""
