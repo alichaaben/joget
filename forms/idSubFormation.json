@@ -4,12 +4,65 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.SubformRepeater",
+                "properties": {
+                    "addMode": "enable",
+                    "collapsedByDefault": "",
+                    "collapsible": "true",
+                    "deleteMode": "enable",
+                    "editFormDefId": "",
+                    "editMode": "enable",
+                    "enableSorting": "",
+                    "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                    "formDefId": "id_formation",
+                    "id": "idSubFormation",
+                    "label": "Ajouter un formation",
+                    "loadBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "storeBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "uniqueKey": "",
+                    "validateMaxRow": "",
+                    "validateMinRow": "",
+                    "validator": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            }],
             "properties": {"width": "100%"}
         }],
         "properties": {
-            "id": "section1",
-            "label": "Section"
+            "comment": "",
+            "id": "idFormation",
+            "join": "",
+            "label": "FORMATION",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
