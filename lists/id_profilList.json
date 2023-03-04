@@ -51,7 +51,7 @@
                 "headerHtml": "",
                 "hideEmptyValueField": "",
                 "label": "Download PDF",
-                "recordIdColumn": "id",
+                "recordIdColumn": "ID",
                 "repeatFooter": "",
                 "repeatHeader": "",
                 "showNotSelectedOptions": ""
