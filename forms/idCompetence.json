@@ -73,6 +73,23 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.rangeSliderField",
+                    "properties": {
+                        "defaultValue": "50",
+                        "id": "field3",
+                        "label": "Slider",
+                        "maxValue": "100",
+                        "minValue": "0",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
