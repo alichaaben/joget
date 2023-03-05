@@ -22,8 +22,8 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_1",
-            "label": "idSubCompetence",
-            "name": "idSubCompetence",
+            "label": "idCompetence",
+            "name": "idCompetence",
             "sortable": "false"
         }
     ],
