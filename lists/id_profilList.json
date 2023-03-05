@@ -35,28 +35,6 @@
                 "visible": ""
             },
             "type": "text"
-        },
-        {
-            "className": "org.joget.tutorial.DownloadPdfDatalistAction",
-            "icon": "",
-            "id": "action_2",
-            "label": "Download PDF",
-            "name": "Download PDF Datalist Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "action",
-                "footerHtml": "",
-                "formDefId": "InfoPersonelle",
-                "formatting": "",
-                "headerHtml": "",
-                "hideEmptyValueField": "",
-                "label": "Download PDF",
-                "recordIdColumn": "ID",
-                "repeatFooter": "",
-                "repeatHeader": "",
-                "showNotSelectedOptions": ""
-            },
-            "type": "text"
         }
     ],
     "binder": {
