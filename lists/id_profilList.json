@@ -70,14 +70,6 @@
             "width": ""
         },
         {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_10",
-            "label": "idCompetence",
-            "name": "idCompetence",
-            "sortable": "false"
-        },
-        {
             "action": {
                 "className": "",
                 "properties": {}
