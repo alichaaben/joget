@@ -29,8 +29,8 @@
                     "className": "org.joget.rangeSliderField",
                     "properties": {
                         "defaultValue": "50",
-                        "id": "field3",
-                        "label": "Slider",
+                        "id": "idNiveau",
+                        "label": "NIVEAU :",
                         "maxValue": "100",
                         "minValue": "0",
                         "readonly": "",
