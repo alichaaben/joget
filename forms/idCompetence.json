@@ -93,6 +93,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "competence"
+        "tableName": "info_personnel_CV"
     }
 }
