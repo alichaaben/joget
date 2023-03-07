@@ -28,7 +28,7 @@
                 "confirmation": "",
                 "datalist_type": "action",
                 "href": "idCV",
-                "hrefColumn": "id",
+                "hrefColumn": "idFKuser",
                 "hrefParam": "id",
                 "label": "Édit",
                 "target": "_self",
@@ -69,14 +69,6 @@
             "id": "column_1",
             "label": "NIVEAU :",
             "name": "idNiveau",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "idFKuser",
-            "name": "idFKuser",
             "sortable": "false"
         }
     ],
