@@ -182,6 +182,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "Experiences"
+        "tableName": "Experiences_CV"
     }
 }
