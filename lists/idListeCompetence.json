@@ -70,6 +70,14 @@
             "label": "NIVEAU :",
             "name": "idNiveau",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Text Field",
+            "name": "idFKuser",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
