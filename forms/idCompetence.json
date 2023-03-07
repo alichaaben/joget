@@ -54,6 +54,26 @@
                         "value": "#form.app_fd_info_personnel_CV.id#",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "field4",
+                        "label": "Text Field",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "#form.app_fd_info_personnel_CV.id#",
+                        "workflowVariable": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
