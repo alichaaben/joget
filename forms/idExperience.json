@@ -163,9 +163,25 @@
     "properties": {
         "description": "",
         "id": "idExperience",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
-        "name": "Expériences professionnelles",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "Expériences",
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "Experiences"
     }
 }
