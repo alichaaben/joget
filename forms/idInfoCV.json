@@ -241,7 +241,7 @@
                 "comment": "",
                 "id": "infoPersonnel",
                 "join": "",
-                "label": "information personnel",
+                "label": "INFORMATION PERSONNELLE",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
