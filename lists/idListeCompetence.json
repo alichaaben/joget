@@ -41,7 +41,7 @@
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "extraCondition": "",
-            "formDefId": "idCompetence"
+            "formDefId": "idInfoCV"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -58,16 +58,16 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "COMPÉTENCE :",
+            "id": "column_0",
+            "label": "idCompetence",
             "name": "idCompetence",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "NIVEAU :",
+            "id": "column_1",
+            "label": "idNiveau",
             "name": "idNiveau",
             "sortable": "false"
         }
