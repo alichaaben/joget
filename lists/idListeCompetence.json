@@ -13,7 +13,7 @@
                 "deleteFiles": "",
                 "deleteGridData": "true",
                 "deleteSubformData": "",
-                "formDefId": "idInfoCV",
+                "formDefId": "idCompetence",
                 "label": "Delete"
             },
             "type": "text"
