@@ -32,7 +32,7 @@
                 "hrefParam": "id",
                 "label": "Édit",
                 "target": "_self",
-                "visible": ""
+                "visible": "true"
             },
             "type": "text"
         }
