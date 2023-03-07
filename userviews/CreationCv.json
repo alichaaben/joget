@@ -49,10 +49,10 @@
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
                     "properties": {
-                        "buttonPosition": "topRight",
+                        "buttonPosition": "topLeft",
                         "cacheAllLinks": "",
                         "cacheListAction": "",
-                        "checkboxPosition": "right",
+                        "checkboxPosition": "left",
                         "customFooter": "",
                         "customHeader": "",
                         "customId": "idListeCV",
