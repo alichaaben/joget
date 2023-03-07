@@ -51,27 +51,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#form.app_fd_info_personnel_CV.id#",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "id": "field4",
-                        "label": "Text Field",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "#form.app_fd_competence.idFKuser#",
+                        "value": "d5e16b5d-9fa0-499d-a595-f1697e8b60cd",
                         "workflowVariable": ""
                     }
                 }
