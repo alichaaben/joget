@@ -38,8 +38,9 @@
                             "id": "idPrenom",
                             "label": "Prénom :",
                             "maxlength": "",
+                            "permissionHidden": "",
                             "placeholder": "",
-                            "readonly": "",
+                            "readonly": "true",
                             "readonlyLabel": "",
                             "size": "",
                             "storeNumeric": "",
@@ -48,7 +49,7 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "",
+                            "value": "#currentUser.username#",
                             "workflowVariable": ""
                         }
                     },
@@ -58,8 +59,9 @@
                             "id": "idNom",
                             "label": "Nom de famille :",
                             "maxlength": "",
+                            "permissionHidden": "",
                             "placeholder": "",
-                            "readonly": "",
+                            "readonly": "true",
                             "readonlyLabel": "",
                             "size": "",
                             "storeNumeric": "",
@@ -68,7 +70,7 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "",
+                            "value": "#currentUser.firstName#",
                             "workflowVariable": ""
                         }
                     },
@@ -78,8 +80,9 @@
                             "id": "idAdressEmail",
                             "label": "Adresse e-mail :",
                             "maxlength": "",
+                            "permissionHidden": "",
                             "placeholder": "",
-                            "readonly": "",
+                            "readonly": "true",
                             "readonlyLabel": "",
                             "size": "",
                             "storeNumeric": "",
@@ -88,7 +91,7 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "",
+                            "value": "#currentUser.email#",
                             "workflowVariable": ""
                         }
                     },
@@ -96,10 +99,11 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "id": "idTitre",
-                            "label": "Titre du profil :",
+                            "label": "Titre d'emploi :",
                             "maxlength": "",
+                            "permissionHidden": "",
                             "placeholder": "",
-                            "readonly": "",
+                            "readonly": "true",
                             "readonlyLabel": "",
                             "size": "",
                             "storeNumeric": "",
@@ -108,7 +112,7 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "",
+                            "value": "#currentUser.employee.jobTitle#",
                             "workflowVariable": ""
                         }
                     },
