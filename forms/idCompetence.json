@@ -41,6 +41,19 @@
                         },
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "id": "idFKuser",
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "#form.app_fd_info_personnel_CV.id#",
+                        "workflowVariable": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
