@@ -27,7 +27,7 @@
                         "enableOffline": "",
                         "fieldPassover": "",
                         "fieldPassoverMethod": "append",
-                        "formId": "InfoPersonelle",
+                        "formId": "idInfoCV",
                         "id": "F92EB402604240969F616BBF60878FDB",
                         "keyName": "",
                         "label": "crée les informations de CV",
