@@ -28,7 +28,7 @@
                 "confirmation": "",
                 "datalist_type": "action",
                 "href": "idCV",
-                "hrefColumn": "id",
+                "hrefColumn": "idFKuser",
                 "hrefParam": "id",
                 "label": "Édit",
                 "target": "_self",
