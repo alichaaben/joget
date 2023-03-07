@@ -36,27 +36,27 @@
                             {
                                 "grouping": "",
                                 "label": "Débutant(e)",
-                                "value": "D"
+                                "value": "Débutant"
                             },
                             {
                                 "grouping": "",
                                 "label": "Intermédiaire",
-                                "value": "I"
+                                "value": "Intermédiaire"
                             },
                             {
                                 "grouping": "",
                                 "label": "Bien",
-                                "value": "B"
+                                "value": "Bien"
                             },
                             {
                                 "grouping": "",
                                 "label": "Très bien",
-                                "value": "TB"
+                                "value": "Très bien"
                             },
                             {
                                 "grouping": "",
                                 "label": "Courant(e)",
-                                "value": "CO"
+                                "value": "Courant(e)"
                             }
                         ],
                         "optionsBinder": {
