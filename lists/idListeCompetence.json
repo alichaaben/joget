@@ -11,7 +11,7 @@
                 "confirmation": "Voulez-vous vraiment supprimer cette donnée",
                 "datalist_type": "action",
                 "deleteFiles": "",
-                "deleteGridData": "",
+                "deleteGridData": "true",
                 "deleteSubformData": "",
                 "formDefId": "idInfoCV",
                 "label": "Delete"
