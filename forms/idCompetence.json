@@ -71,7 +71,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#form.app_fd_info_personnel_CV.id#",
+                        "value": "#form.app_fd_competence.idFKuser#",
                         "workflowVariable": ""
                     }
                 }
