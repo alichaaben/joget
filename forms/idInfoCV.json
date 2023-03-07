@@ -305,7 +305,7 @@
             }],
             "properties": {
                 "comment": "",
-                "id": "idCompetence_1_1",
+                "id": "idCompetence_1",
                 "join": "",
                 "label": "Compétence",
                 "loadBinder": {
