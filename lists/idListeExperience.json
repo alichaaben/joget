@@ -1,11 +1,110 @@
 {
-    "actions": [],
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+            "id": "action_0",
+            "label": "Delete",
+            "name": "Form Row Delete Action",
+            "properties": {
+                "abortRelatedRunningProcesses": "",
+                "confirmation": "",
+                "datalist_type": "action",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "deleteSubformData": "",
+                "formDefId": "idExperience",
+                "label": "Delete"
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "action_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "action",
+                "href": "idCV",
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "label": "Édit",
+                "target": "_self",
+                "visible": ""
+            },
+            "type": "text"
+        }
+    ],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "extraCondition": "",
+            "formDefId": "idExperience"
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "ID",
+            "name": "id",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "POSTE OCCUPÉ :",
+            "name": "idPoste",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "ENTREPRISE :",
+            "name": "identrepris",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "CLIENT :",
+            "name": "idClient",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "DATE DE DÉBUT :",
+            "name": "idDateDebut",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "DATE DE FIN :",
+            "name": "idDateFin",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "DESCRIPTION :",
+            "name": "idDescription",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "idListeExperience",
@@ -13,5 +112,8 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
