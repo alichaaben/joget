@@ -316,7 +316,7 @@
                 "comment": "",
                 "id": "idCompetence_1",
                 "join": "",
-                "label": "Compétence",
+                "label": "COMPÉTENCE",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
@@ -391,7 +391,7 @@
                 "comment": "",
                 "id": "id_experience",
                 "join": "",
-                "label": "Expérience professionnelle",
+                "label": "EXPÉRIENCE",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
@@ -541,7 +541,7 @@
                 "comment": "",
                 "id": "idLangue",
                 "join": "",
-                "label": "Langue",
+                "label": "LANGUE",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
