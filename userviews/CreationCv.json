@@ -75,7 +75,7 @@
                         "cancelButtonLabel": "",
                         "customFooter": "",
                         "customHeader": "",
-                        "customId": "idcomp",
+                        "customId": "idComp",
                         "enableOffline": "",
                         "fieldPassover": "",
                         "fieldPassoverMethod": "append",
