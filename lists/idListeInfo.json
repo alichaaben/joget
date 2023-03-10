@@ -1,22 +1,46 @@
 {
-    "actions": [{
-        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-        "icon": "<i class=\"fas fa-link\"><\/i>",
-        "id": "action_1",
-        "label": "Hyperlink",
-        "name": "Data List Hyperlink Action",
-        "properties": {
-            "confirmation": "",
-            "datalist_type": "action",
-            "href": "idCV",
-            "hrefColumn": "id",
-            "hrefParam": "id",
-            "label": "Édit",
-            "target": "_self",
-            "visible": ""
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "action_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "action",
+                "href": "idCV",
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "label": "Édit",
+                "target": "_self",
+                "visible": ""
+            },
+            "type": "text"
         },
-        "type": "text"
-    }],
+        {
+            "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+            "icon": "",
+            "id": "action_0",
+            "label": "Download PDF",
+            "name": "Download PDF Datalist Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "action",
+                "footerHtml": "",
+                "formDefId": "idInfoCV",
+                "formatting": "",
+                "headerHtml": "",
+                "hideEmptyValueField": "",
+                "label": "Download PDF",
+                "recordIdColumn": "id",
+                "repeatFooter": "",
+                "repeatHeader": "",
+                "showNotSelectedOptions": ""
+            },
+            "type": "text"
+        }
+    ],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
