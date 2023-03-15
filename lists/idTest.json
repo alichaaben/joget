@@ -13,7 +13,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
+            "id": "column_0",
             "label": "ID",
             "name": "id",
             "sortable": "false"
@@ -21,7 +21,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
+            "id": "column_1",
             "label": "Text Field",
             "name": "field1",
             "sortable": "false"
