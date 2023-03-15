@@ -44,6 +44,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "test2"
+        "tableName": "employe"
     }
 }
