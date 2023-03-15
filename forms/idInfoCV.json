@@ -118,7 +118,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#user.{currentUser.username}.username#",
+                        "value": "#currentUser.username#",
                         "workflowVariable": ""
                     }
                 }
