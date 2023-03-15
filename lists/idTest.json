@@ -4,7 +4,7 @@
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "extraCondition": "",
-            "formDefId": "employe"
+            "formDefId": "fb"
         }
     },
     "buttonPosition": "bottomLeft",
