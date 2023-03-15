@@ -109,6 +109,19 @@
                             "value": "",
                             "workflowVariable": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "properties": {
+                            "id": "forieginKey",
+                            "useDefaultWhenEmpty": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
                     }
                 ],
                 "properties": {"width": "100%"}
@@ -132,8 +145,13 @@
                 "regex": "",
                 "reverse": "",
                 "storeBinder": {
-                    "className": "",
-                    "properties": {}
+                    "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                    "properties": {
+                        "autoHandleFiles": "",
+                        "autoHandleWorkflowVariable": "true",
+                        "cacheInterval": "",
+                        "script": "d"
+                    }
                 },
                 "visibilityControl": "",
                 "visibilityValue": ""
