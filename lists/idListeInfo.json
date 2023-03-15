@@ -56,7 +56,7 @@
             "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
-            "label": "Photo :",
+            "label": "Photo",
             "name": "idPhotot",
             "sortable": "false",
             "style": "",
