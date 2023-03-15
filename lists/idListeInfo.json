@@ -56,12 +56,31 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "org.joget.tutorial.ImgDatalistFormatter",
+                "properties": {
+                    "formDefId": "idInfoCV",
+                    "height": "60px",
+                    "imagefullsize": "true",
+                    "width": "60px"
+                }
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_3",
             "label": "Photo :",
             "name": "idPhotot",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
