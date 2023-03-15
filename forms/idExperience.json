@@ -140,7 +140,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#user.username.username#",
+                        "value": "#currentUser.username#",
                         "workflowVariable": ""
                     }
                 }
