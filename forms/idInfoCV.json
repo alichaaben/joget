@@ -210,7 +210,7 @@
                 "comment": "",
                 "id": "id_experience",
                 "join": "",
-                "label": "EXPÉRIENCE",
+                "label": "EXPÉRIENCES",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
@@ -285,7 +285,7 @@
                 "comment": "",
                 "id": "idFormation",
                 "join": "",
-                "label": "FORMATION",
+                "label": "FORMATIONS",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
@@ -360,7 +360,7 @@
                 "comment": "",
                 "id": "idCompetence_1",
                 "join": "",
-                "label": "COMPÉTENCE",
+                "label": "COMPÉTENCES TECHNIQUES",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
@@ -435,7 +435,7 @@
                 "comment": "",
                 "id": "idLangue",
                 "join": "",
-                "label": "LANGUE",
+                "label": "LANGUES",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
