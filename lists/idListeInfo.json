@@ -13,6 +13,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_3",
+            "label": "NIVEAU :",
+            "name": "c_idNiveau",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "NIVEAU : (COUNT)",
             "name": "COUNT_c_idNiveau",
