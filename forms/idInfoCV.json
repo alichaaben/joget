@@ -150,8 +150,13 @@
                 "regex": "",
                 "reverse": "",
                 "storeBinder": {
-                    "className": "",
-                    "properties": {}
+                    "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                    "properties": {
+                        "autoHandleFiles": "",
+                        "autoHandleWorkflowVariable": "true",
+                        "cacheInterval": "",
+                        "script": "j"
+                    }
                 },
                 "visibilityControl": "",
                 "visibilityValue": ""
