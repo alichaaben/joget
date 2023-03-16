@@ -1,5 +1,42 @@
 {
-    "actions": [],
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+            "id": "action_0",
+            "label": "Delete",
+            "name": "Form Row Delete Action",
+            "properties": {
+                "abortRelatedRunningProcesses": "",
+                "confirmation": "",
+                "datalist_type": "action",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "deleteSubformData": "",
+                "formDefId": "idInfoCV",
+                "label": "Delete"
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "action_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "action",
+                "href": "idCV",
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "label": "Édit",
+                "target": "_self",
+                "visible": ""
+            },
+            "type": "text"
+        }
+    ],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -9,14 +46,48 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "id": "column_0",
-        "label": "ID",
-        "name": "id",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Photo :",
+            "name": "idPhotot",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Description de profil :",
+            "name": "idDescProfil",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "LinkedIn :",
+            "name": "idLinkedin",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Adresse :",
+            "name": "idAdress",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Numéro de téléphone :",
+            "name": "idTele",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
