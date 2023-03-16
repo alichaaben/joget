@@ -311,7 +311,39 @@
             "className": "org.joget.apps.form.model.Section",
             "elements": [{
                 "className": "org.joget.apps.form.model.Column",
-                "elements": [],
+                "elements": [{
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "editMode": "enable",
+                        "enableSorting": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "formDefId": "id_competence_cles",
+                        "id": "field12",
+                        "label": "Ajouter les compétences clés",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }],
                 "properties": {"width": "100%"}
             }],
             "properties": {
@@ -499,7 +531,7 @@
                     "properties": {
                         "clickableStep": "true",
                         "id": "field14",
-                        "sections": "infoPersonnel,id_experience,idFormation,idCompetence_1,idLangue"
+                        "sections": "infoPersonnel,id_experience,idFormation,idCompetence_1,idLangue,id_competence_cles"
                     }
                 }],
                 "properties": {"width": "100%"}
