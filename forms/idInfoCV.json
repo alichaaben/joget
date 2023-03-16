@@ -531,7 +531,7 @@
                     "properties": {
                         "clickableStep": "true",
                         "id": "field14",
-                        "sections": "infoPersonnel,id_experience,idFormation,idCompetence_1,idLangue,id_competence_cles"
+                        "sections": "infoPersonnel,id_experience,idFormation,idCompetence_1,id_competence_cles,idLangue"
                     }
                 }],
                 "properties": {"width": "100%"}
