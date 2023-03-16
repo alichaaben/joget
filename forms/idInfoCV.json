@@ -236,7 +236,7 @@
                     "properties": {
                         "clickableStep": "true",
                         "id": "field14",
-                        "sections": "infoPersonnel,idExperience"
+                        "sections": "infoPersonnel,id_experience"
                     }
                 }],
                 "properties": {"width": "100%"}
