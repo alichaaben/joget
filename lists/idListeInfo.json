@@ -9,14 +9,32 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "id": "column_0",
-        "label": "COUNT(*)",
-        "name": "count",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "NIVEAU : (COUNT)",
+            "name": "COUNT_c_idNiveau",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "NIVEAU : (MAX)",
+            "name": "MAX_c_idNiveau",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "NIVEAU : (MIN)",
+            "name": "MIN_c_idNiveau",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
