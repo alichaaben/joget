@@ -21,14 +21,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "NIVEAU : (COUNT)",
-            "name": "COUNT_c_idNiveau",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_1",
             "label": "NIVEAU : (MAX)",
             "name": "MAX_c_idNiveau",
@@ -37,9 +29,17 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_0",
+            "label": "idNiveau2",
+            "name": "c_idNiveau2",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_2",
-            "label": "NIVEAU : (MIN)",
-            "name": "MIN_c_idNiveau",
+            "label": "idNiveau2 (MAX)",
+            "name": "MAX_c_idNiveau2",
             "sortable": "false"
         }
     ],
