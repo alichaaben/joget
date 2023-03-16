@@ -9,7 +9,7 @@
                     "className": "org.joget.sample.Tooltip",
                     "properties": {
                         "color": "black",
-                        "content": "<p>Content<\/p>",
+                        "content": "<p>&lt;% for (int i=0;i&lt;5;i++){%&gt;<\/p>\n<h1>test<\/h1>\n<p>&lt;%}&gt;<\/p>",
                         "expanddefault": "",
                         "label": "",
                         "showanimation": "true",
