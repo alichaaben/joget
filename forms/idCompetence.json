@@ -62,7 +62,7 @@
             "comment": "",
             "id": "id_competence",
             "join": "",
-            "label": "Compétences  :",
+            "label": "Compétences Technologique :",
             "loadBinder": {
                 "className": "",
                 "properties": {}
