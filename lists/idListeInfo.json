@@ -1,15 +1,22 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.AggregateDatalistBinder",
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "extraCondition": "",
-            "formDefId": "idCompetence"
+            "formDefId": "idInfoCV"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "ID",
+        "name": "id",
+        "sortable": "false"
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
