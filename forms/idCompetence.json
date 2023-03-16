@@ -91,7 +91,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Compétence",
+        "name": "Compétence Technique",
         "noPermissionMessage": "",
         "permission": {
             "className": "",
@@ -106,6 +106,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "competence"
+        "tableName": "competence_technique"
     }
 }
