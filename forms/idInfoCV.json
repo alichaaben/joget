@@ -236,6 +236,346 @@
                 "visibilityControl": "",
                 "visibilityValue": ""
             }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "editMode": "enable",
+                        "enableSorting": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "formDefId": "id_formation",
+                        "id": "idFormation",
+                        "label": "Ajouter un Formation",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \nFormRowSet f = new FormRowSet();\nf.setMultiRow(true);\n \n\nDataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \ncon = ds.getConnection();\n \nif (!con.isClosed()) {\n    \n   // String recordId = \"#requestParam.id#\";\n    String fk = \"#currentUser.username#\";\n   \n    String sql = \"select c_idFormation,c_id_niveau,c_idDomaine,c_idEtablissement,c_idDateTerminer,c_idDescription from app_fd_formation where c_idFKuser=?\";\n    PreparedStatement stmt = con.prepareStatement(sql);\n    stmt.setString(1, fk);\n  \n    \n    ResultSet rs = stmt.executeQuery();\n         \n   \n    while (rs.next()) {\n        FormRow r1 = new FormRow();\n        r1.put(\"idFormation\", rs.getString(1));\n        r1.put(\"id_niveau\", rs.getString(2));\n        r1.put(\"idDomaine\", rs.getString(3));\n        r1.put(\"idEtablissement\", rs.getString(4));\n        r1.put(\"idDateTerminer\", rs.getString(5));\n        r1.put(\"idDescription\", rs.getString(6));\n        f.add(r1);\n    }\n}\n \nreturn f;"
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \npublic saveGridRows(Element element, FormRowSet rows, FormData formData) {\n     \n    String recordId = null;\n    Connection con = null;\n     \n    try {\n       \n        DataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \n        con = ds.getConnection();\n         \n        if(!con.isClosed()) {\n          \n            UuidGenerator uuid = UuidGenerator.getInstance();\n             //String recordId = \"#requestParam.id#\";\n             \n            Iterator i= rows.iterator();\n            while (i.hasNext()) {\n                FormRow row = (FormRow) i.next();\n                 \n                String pId = uuid.getUuid();\n                //String gridColumn3 = recordId;\n                String gridColumn3 = row.get(\"idFKuser\");\n                String gridColumn1 = row.get(\"idFormation\");\n                String gridColumn2 = row.get(\"id_niveau\");\n                String gridColumn4 = row.get(\"idDomaine\");\n                String gridColumn5 = row.get(\"idEtablissement\");\n                String gridColumn6 = row.get(\"idDateTerminer\");\n                String gridColumn7 = row.get(\"idDescription\");\n                \n                \n                String insertSql = \"INSERT INTO app_fd_formation (id,c_idFormation,c_id_niveau,c_idDomaine,c_idEtablissement,c_idDateTerminer,c_idDescription,c_idFKuser) VALUES (?,?,?,?,?,?,?,?);\";\n                PreparedStatement stmtInsert = con.prepareStatement(insertSql);\n                 \n                stmtInsert.setString(1, pId);\n                stmtInsert.setString(2, gridColumn1);\n                stmtInsert.setString(3, gridColumn2);\n                stmtInsert.setString(4, gridColumn4);\n                stmtInsert.setString(5, gridColumn5);\n                stmtInsert.setString(6, gridColumn6);\n                stmtInsert.setString(7, gridColumn7);\n                stmtInsert.setString(8, gridColumn3);\n               \n                 \n               \n                stmtInsert.executeUpdate();\n            }\n        }\n    } catch (Exception ex) {\n        LogUtil.error(\"Your App/Plugin Name\", ex, \"Error storing using jdbc\");\n    } finally {\n        try {\n            if (con != null) {\n                con.close();\n            }\n        } catch (Exception ex) {\n            LogUtil.error(\"Your App/Plugin Name\", ex, \"Error closing the jdbc connection\");\n        }\n    }\n}\n\nsaveGridRows(element, rows, formData);\n"
+                            }
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "idFormation",
+                "join": "",
+                "label": "FORMATIONS",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "editMode": "enable",
+                        "enableSorting": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "formDefId": "id_competence_cles",
+                        "id": "field12",
+                        "label": "Ajouter les compétences clés",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \nFormRowSet f = new FormRowSet();\nf.setMultiRow(true);\n \n\nDataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \ncon = ds.getConnection();\n \nif (!con.isClosed()) {\n    \n    //String recordId = \"#requestParam.id#\";\n    String fk = \"#currentUser.username#\";\n   \n    String sql = \"select c_id_competence_cles from app_fd_competence_cles where c_idFKuser=?\";\n    PreparedStatement stmt = con.prepareStatement(sql);\n    stmt.setString(1, fk);\n  \n    \n    ResultSet rs = stmt.executeQuery();\n         \n   \n    while (rs.next()) {\n        FormRow r1 = new FormRow();\n        r1.put(\"id_competence_cles\", rs.getString(1));\n        f.add(r1);\n    }\n}\n \nreturn f;"
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \npublic saveGridRows(Element element, FormRowSet rows, FormData formData) {\n     \n    String recordId = null;\n    Connection con = null;\n     \n    try {\n       \n        DataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \n        con = ds.getConnection();\n         \n        if(!con.isClosed()) {\n          \n            UuidGenerator uuid = UuidGenerator.getInstance();\n             //String recordId = \"#requestParam.id#\";\n             \n            Iterator i= rows.iterator();\n            while (i.hasNext()) {\n                FormRow row = (FormRow) i.next();\n                 \n                String pId = uuid.getUuid();\n                //String gridColumn0 = recordId;\n                String gridColumn1 = row.get(\"id_competence_cles\");\n                String gridColumn2 = row.get(\"idFKuser\");\n                \n                \n                String insertSql = \"INSERT INTO app_fd_competence_cles (id,c_id_competence_cles,c_idFKuser) VALUES (?,?,?);\";\n                PreparedStatement stmtInsert = con.prepareStatement(insertSql);\n                 \n                stmtInsert.setString(1, pId);\n                stmtInsert.setString(2, gridColumn1);\n                stmtInsert.setString(3, gridColumn2);\n                \n                \n                stmtInsert.executeUpdate();\n            }\n        }\n    } catch (Exception ex) {\n        LogUtil.error(\"Your App/Plugin Name\", ex, \"Error storing using jdbc\");\n    } finally {\n        try {\n            if (con != null) {\n                con.close();\n            }\n        } catch (Exception ex) {\n            LogUtil.error(\"Your App/Plugin Name\", ex, \"Error closing the jdbc connection\");\n        }\n    }\n}\n\nsaveGridRows(element, rows, formData);\n"
+                            }
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "id_competence_cles",
+                "join": "",
+                "label": "COMPÉTENCES CLÉS",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "editMode": "enable",
+                        "enableSorting": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "formDefId": "idCompetence",
+                        "id": "idCompetence",
+                        "label": "Ajouter un compétence",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \nFormRowSet f = new FormRowSet();\nf.setMultiRow(true);\n \n\nDataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \ncon = ds.getConnection();\n \nif (!con.isClosed()) {\n    \n    //String recordId = \"#requestParam.id#\";\n        String fk = \"#currentUser.username#\";\n   \n    String sql = \"select c_idCompetence,c_idNiveau from app_fd_competence_technique where c_idFKuser=?\";\n    PreparedStatement stmt = con.prepareStatement(sql);\n    stmt.setString(1, fk);\n  \n    \n    ResultSet rs = stmt.executeQuery();\n         \n   \n    while (rs.next()) {\n        FormRow r1 = new FormRow();\n        r1.put(\"idCompetence\", rs.getString(1));\n        r1.put(\"idNiveau\", rs.getString(2));\n        f.add(r1);\n    }\n}\n \nreturn f;"
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \npublic saveGridRows(Element element, FormRowSet rows, FormData formData) {\n     \n    String recordId = null;\n    Connection con = null;\n     \n    try {\n       \n        DataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \n        con = ds.getConnection();\n         \n        if(!con.isClosed()) {\n          \n            UuidGenerator uuid = UuidGenerator.getInstance();\n             //String recordId = \"#requestParam.id#\";\n             \n            Iterator i= rows.iterator();\n            while (i.hasNext()) {\n                FormRow row = (FormRow) i.next();\n                 \n                String pId = uuid.getUuid();\n                //String gridColumn0 = recordId;\n                String gridColumn1 = row.get(\"idCompetence\");\n                String gridColumn2 = row.get(\"idNiveau\");\n                String gridColumn3 = row.get(\"idFKuser\");\n                \n                \n                String insertSql = \"INSERT INTO app_fd_competence_technique (id,c_idCompetence,c_idNiveau,c_idFKuser) VALUES (?,?,?,?);\";\n                PreparedStatement stmtInsert = con.prepareStatement(insertSql);\n                 \n                stmtInsert.setString(1, pId);\n                stmtInsert.setString(2, gridColumn1);\n                stmtInsert.setString(3, gridColumn2);\n                stmtInsert.setString(4, gridColumn3);\n                \n                \n                stmtInsert.executeUpdate();\n            }\n        }\n    } catch (Exception ex) {\n        LogUtil.error(\"Your App/Plugin Name\", ex, \"Error storing using jdbc\");\n    } finally {\n        try {\n            if (con != null) {\n                con.close();\n            }\n        } catch (Exception ex) {\n            LogUtil.error(\"Your App/Plugin Name\", ex, \"Error closing the jdbc connection\");\n        }\n    }\n}\n\nsaveGridRows(element, rows, formData);\n"
+                            }
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "idCompetence_1",
+                "join": "",
+                "label": "COMPÉTENCES TECHNIQUES",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "editMode": "enable",
+                        "enableSorting": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "formDefId": "inLangue",
+                        "id": "idLange",
+                        "label": "Ajouter un Langue",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \nFormRowSet f = new FormRowSet();\nf.setMultiRow(true);\n \n\nDataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \ncon = ds.getConnection();\n \nif (!con.isClosed()) {\n    \n    //String recordId = \"#requestParam.id#\";\n    String fk = \"#currentUser.username#\";\n   \n    String sql = \"select c_idLangue,c_idNiveau from app_fd_Langue where c_idFKuser=?\";\n    PreparedStatement stmt = con.prepareStatement(sql);\n    stmt.setString(1, fk);\n  \n    \n    ResultSet rs = stmt.executeQuery();\n         \n   \n    while (rs.next()) {\n        FormRow r1 = new FormRow();\n        r1.put(\"idLangue\", rs.getString(1));\n        r1.put(\"idNiveau\", rs.getString(2));\n        f.add(r1);\n    }\n}\n \nreturn f;"
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "script": "import java.sql.Connection;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\nimport java.sql.SQLException;\nimport javax.sql.DataSource;\nimport org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.model.Form;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\nimport org.joget.commons.util.UuidGenerator;\n \npublic saveGridRows(Element element, FormRowSet rows, FormData formData) {\n     \n    String recordId = null;\n    Connection con = null;\n     \n    try {\n       \n        DataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\n \n        con = ds.getConnection();\n         \n        if(!con.isClosed()) {\n          \n            UuidGenerator uuid = UuidGenerator.getInstance();\n             //String recordId = \"#requestParam.id#\";\n             \n            Iterator i= rows.iterator();\n            while (i.hasNext()) {\n                FormRow row = (FormRow) i.next();\n                 \n                String pId = uuid.getUuid();\n                String gridColumn1 = row.get(\"idLangue\");\n                String gridColumn2 = row.get(\"idNiveau\");\n                String gridColumn3 = row.get(\"idFKuser\");\n                \n                \n                String insertSql = \"INSERT INTO app_fd_Langue (id,c_idLangue,c_idNiveau,c_idFKuser) VALUES (?,?,?,?);\";\n                PreparedStatement stmtInsert = con.prepareStatement(insertSql);\n                 \n                stmtInsert.setString(1, pId);\n                stmtInsert.setString(2, gridColumn1);\n                stmtInsert.setString(3, gridColumn2);\n                stmtInsert.setString(4, gridColumn3);\n               \n                 \n               \n                stmtInsert.executeUpdate();\n            }\n        }\n    } catch (Exception ex) {\n        LogUtil.error(\"Your App/Plugin Name\", ex, \"Error storing using jdbc\");\n    } finally {\n        try {\n            if (con != null) {\n                con.close();\n            }\n        } catch (Exception ex) {\n            LogUtil.error(\"Your App/Plugin Name\", ex, \"Error closing the jdbc connection\");\n        }\n    }\n}\n\nsaveGridRows(element, rows, formData);\n"
+                            }
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "idLangue",
+                "join": "",
+                "label": "LANGUES",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.plugin.SectionWizard",
+                    "properties": {
+                        "clickableStep": "true",
+                        "id": "field14",
+                        "sections": "infoPersonnel,id_experience,idFormation,idCompetence_1,id_competence_cles,idLangue"
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section6",
+                "join": "",
+                "label": "CV de #currentUser.username#",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
         }
     ],
     "properties": {
