@@ -47,6 +47,27 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "topLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "idListeCV",
+                        "datalistId": "idListeInfo",
+                        "enableOffline": "",
+                        "id": "C13EC218D6364D45823399E6BC78F9C8",
+                        "keyName": "",
+                        "label": "Liste des informations liées aux CV",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.userview.lib.HtmlPage",
                     "properties": {
                         "content": "<div class=\"page-content page-container\" id=\"page-content\">\n<div style=\"padding: 80px;\">\n<div class=\"row container d-flex justify-content-center\">\n<div class=\"col-xl-6 col-md-12\">\n<div class=\"card user-card-full\" style=\"border-radius: 5px; -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08); box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08); border: none; margin-bottom: 30px; font-size: 20px; margin: 0 10px 0 0; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; display: inline-block;\">\n<div class=\"row m-l-0 m-r-0\">\n<div class=\"col-sm-4\" style=\"background: linear-gradient(to right, #A52A28, #062C4B); border-radius: 5px 0 0 5px; width: 98.6%;\">\n<div class=\"text-center text-white\" style=\"padding: 1.25rem;\">\n<div style=\"margin-right: 800px;\">\n<div class=\"profile mr-10\"><img src=\"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80\" alt=\"...\" style=\"display: inline-block; height: 100px; padding: 4px; line-height: 1.42857143; background-color: #fff; border: 1px solid #ddd; border-radius: 4px;\" class=\"rounded mb-2  \" /><\/div>\n<h6 style=\"font-weight: 600; text-align: center; color: #ffffff;\">#currentUser.firstName# #currentUser.lastName#<\/h6>\n<p style=\"font-size: 14px; text-align: center; color: #ffffff;\">#currentUser.employee.jobTitle#<\/p>\n<\/div>\n<!--  <i class=\" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16\"><\/i>--><\/div>\n<\/div>\n<!--****************************************************************************-->\n<div class=\"col-sm-10\">\n<div style=\"padding: 1.25rem;\">\n<h6 style=\"margin-bottom: 20px; padding-bottom: 5px !important; border-bottom: 1px solid #e0e0e0; font-weight: 600; font-size: 30px;\">Information<\/h6>\n<div class=\"row\">\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Email<\/p>\n<h6 class=\"f-w-400\" style=\"color: #919aa3 !important;\">#currentUser.email#<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Department<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">#currentUser.department.name#<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Grade<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">Dinoter husainm<\/h6>\n<\/div>\n<\/div>\n<h6 style=\"margin-bottom: 20px; padding-bottom: 5px !important; border-bottom: 1px solid #e0e0e0; font-weight: 600; font-size: 30px;\">Exp&eacute;riences<\/h6>\n<div class=\"row\">\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Description<\/p>\n<h6 class=\"f-w-400\" style=\"color: #919aa3 !important;\">Sam Disuja kuerugherughuerhgueruoguoergouerhgerhugehhe<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Date d&eacute;but<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">14/01/2023<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Date Fin<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">14/01/2023<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Poste occup&eacute;<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">developpeur<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Client<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">Telecome<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Entreprise<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">Wevioo<\/h6>\n<\/div>\n<\/div>\n<!--****************************************************************************-->\n<h6 style=\"margin-bottom: 20px; padding-bottom: 5px !important; border-bottom: 1px solid #e0e0e0; font-weight: 600; font-size: 30px;\">Comp&eacute;tences<\/h6>\n<div class=\"row\">\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">LANGUE<\/p>\n<h6 class=\"f-w-400\" style=\"color: #919aa3 !important;\">Francer<\/h6>\n<h6 class=\"f-w-400\" style=\"color: #919aa3 !important;\">anglais<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">COMP&Eacute;TENCE<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">java php HTML/CSS Js<\/h6>\n<\/div>\n<\/div>\n<!--****************************************************************************-->\n<h6 style=\"margin-bottom: 20px; padding-bottom: 5px !important; border-bottom: 1px solid #e0e0e0; font-weight: 600; font-size: 30px;\">Formations<\/h6>\n<div class=\"row\">\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Date d&eacute;but<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">14/01/2023<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Date Fin<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">14/01/2023<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">Dipl&ocirc;me<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">licence en informatique<\/h6>\n<\/div>\n<div class=\"col-sm-6\">\n<p style=\"margin-bottom: 10px; font-weight: 600; font-size: 14px;\">&Eacute;tablissement<\/p>\n<h6 class=\" f-w-400\" style=\"color: #919aa3 !important;\">ESEN<\/h6>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>",
@@ -182,27 +203,6 @@
                         "id": "C0DD638016CE4D07AB0F5E7163CDE2B7",
                         "keyName": "",
                         "label": "Liste des Langues",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "topLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "idListeCV",
-                        "datalistId": "idListeInfo",
-                        "enableOffline": "",
-                        "id": "C13EC218D6364D45823399E6BC78F9C8",
-                        "keyName": "",
-                        "label": "Liste des informations liées aux CV",
                         "rowCount": "",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
