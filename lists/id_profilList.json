@@ -1,297 +1,36 @@
 {
-    "actions": [
-        {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-            "id": "action_0",
-            "label": "Delete",
-            "name": "Form Row Delete Action",
-            "properties": {
-                "abortRelatedRunningProcesses": "",
-                "confirmation": "Voulez-vous vraiment supprimer cette donnée",
-                "datalist_type": "action",
-                "deleteFiles": "",
-                "deleteGridData": "",
-                "deleteSubformData": "",
-                "formDefId": "InfoPersonelle",
-                "label": "Delete"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "action_1",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "action",
-                "href": "idCV",
-                "hrefColumn": "id",
-                "hrefParam": "id",
-                "label": "Édit",
-                "target": "_self",
-                "visible": ""
-            },
-            "type": "text"
-        }
-    ],
+    "actions": [],
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "org.joget.AggregateDatalistBinder",
         "properties": {
             "extraCondition": "",
-            "formDefId": "InfoPersonelle"
+            "formDefId": "inLangue"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
     "columns": [
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_7",
-            "label": "ID",
-            "name": "id",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.tutorial.ImgDatalistFormatter",
-                "properties": {
-                    "formDefId": "InfoPersonelle",
-                    "height": "60px",
-                    "imagefullsize": "true",
-                    "width": "60px"
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Photo",
-            "name": "idPhotot",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
-            "label": "Prénom",
-            "name": "idPrenom",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "label": "ID",
+            "name": "id",
+            "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
-            "id": "column_2",
-            "label": "Nom de famille",
-            "name": "idNom",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_6",
-            "label": "Titre du profil",
-            "name": "idTitre",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Adresse e-mail",
-            "name": "idAdressEmail",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "LinkedIn",
-            "name": "idLinkedin",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_5",
-            "label": "Numéro de téléphone",
-            "name": "idTele",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_8",
-            "label": "Adresse",
-            "name": "idAdress",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_9",
-            "label": "Ville",
-            "name": "idVille",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "id": "column_0",
+            "label": "idLangue (COUNT)",
+            "name": "COUNT_c_idLangue",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-7375260-fn_id",
-        "hidden": "",
-        "id": "filter_0",
-        "label": "Search",
-        "name": "id",
-        "type": {
-            "className": "org.joget.FullTextSearch",
-            "properties": {
-                "columns": "idAdress;idAdressEmail;id;idExperience;idNom;idTele;idPrenom",
-                "searchCondition": "OR",
-                "useCustomQuery": ""
-            }
-        }
-    }],
+    "filters": [],
     "hidePageSize": "",
     "id": "id_profilList",
     "name": "liste de profil",
