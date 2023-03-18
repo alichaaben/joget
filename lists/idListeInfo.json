@@ -57,28 +57,6 @@
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_0",
-            "label": "nom :",
-            "name": "forieginKey",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
                 "className": "org.joget.tutorial.ImgDatalistFormatter",
                 "properties": {
                     "formDefId": "idInfoCV",
@@ -99,33 +77,33 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_0",
+            "label": "Nom :",
+            "name": "idNom",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_1",
-            "label": "Description de profil :",
-            "name": "idDescProfil",
+            "label": "Prenom :",
+            "name": "idPrenom",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_3",
-            "label": "LinkedIn :",
-            "name": "idLinkedin",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "Adresse :",
-            "name": "idAdress",
+            "label": "E-mail :",
+            "name": "idEmail",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_4",
-            "label": "Numéro de téléphone :",
-            "name": "idTele",
+            "label": "Description de profil :",
+            "name": "idDescription",
             "sortable": "false"
         }
     ],
