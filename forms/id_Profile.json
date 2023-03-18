@@ -126,7 +126,12 @@
                     }
                 }
             ],
-            "properties": {"width": "100%"}
+            "properties": {
+                "customWidth": "1000",
+                "horizontal": "",
+                "label": "",
+                "width": "1000"
+            }
         }],
         "properties": {
             "comment": "",
@@ -134,7 +139,7 @@
             "join": "",
             "label": "Informations personnelles",
             "loadBinder": {
-                "className": "",
+                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                 "properties": {}
             },
             "permission": {
@@ -147,7 +152,7 @@
             "regex": "",
             "reverse": "",
             "storeBinder": {
-                "className": "",
+                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                 "properties": {}
             },
             "visibilityControl": "",
