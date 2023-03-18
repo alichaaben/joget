@@ -50,41 +50,41 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "ID",
-            "name": "id",
+            "id": "column_1",
+            "label": "Photo :",
+            "name": "idPhotot",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "idSubCompetence",
-            "name": "idSubCompetence",
+            "id": "column_0",
+            "label": "Nom :",
+            "name": "idNom",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_2",
-            "label": "idSubExperience",
-            "name": "idSubExperience",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "idSubFormation",
-            "name": "idSubFormation",
+            "label": "Prenom :",
+            "name": "idPrenom",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_4",
-            "label": "idSubLangue",
-            "name": "idSubLangue",
+            "label": "E-mail :",
+            "name": "idEmail",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Description de profil :",
+            "name": "idDescription",
             "sortable": "false"
         }
     ],
