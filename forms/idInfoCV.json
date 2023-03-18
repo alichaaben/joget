@@ -8,9 +8,13 @@
                 "elements": [{
                     "className": "org.joget.SubformRepeater",
                     "properties": {
+                        "addMode": "enable",
                         "collapsedByDefault": "true",
                         "collapsible": "true",
-                        "editFormDefId": "",
+                        "deleteMode": "enable",
+                        "editFormDefId": "id_Profile",
+                        "editMode": "enable",
+                        "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "id_Profile",
                         "id": "Profil",
@@ -25,7 +29,7 @@
                             }
                         },
                         "permissionHidden": "",
-                        "readonly": "true",
+                        "readonly": "",
                         "readonlyLabel": "",
                         "storeBinder": {
                             "className": "org.joget.apps.form.lib.BeanShellFormBinder",
