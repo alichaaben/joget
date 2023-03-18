@@ -8,6 +8,50 @@
                 "elements": [{
                     "className": "org.joget.SubformRepeater",
                     "properties": {
+                        "addMode": "disable",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "deleteMode": "disable",
+                        "editFormDefId": "",
+                        "editMode": "disable",
+                        "enableSorting": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "formDefId": "id_Profile",
+                        "id": "field7",
+                        "label": "INFORMATIONS PERSONNELLES",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "id": "section7",
+                "label": "Section"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
                         "addMode": "enable",
                         "collapsedByDefault": "",
                         "collapsible": "true",
