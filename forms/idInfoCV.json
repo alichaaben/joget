@@ -310,7 +310,7 @@
                     "properties": {
                         "clickableStep": "true",
                         "id": "field14",
-                        "sections": "infoPersonnel,id_experience,idFormation,id_competence_cles"
+                        "sections": "infoPersonnel,id_experience,idFormation,id_competence_cles,idCompetence_1"
                     }
                 }],
                 "properties": {"width": "100%"}
