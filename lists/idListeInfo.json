@@ -1,47 +1,27 @@
 {
-    "actions": [
-        {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-            "id": "action_0",
-            "label": "Delete",
-            "name": "Form Row Delete Action",
-            "properties": {
-                "abortRelatedRunningProcesses": "",
-                "confirmation": "",
-                "datalist_type": "action",
-                "deleteFiles": "",
-                "deleteGridData": "",
-                "deleteSubformData": "",
-                "formDefId": "idInfoCV",
-                "label": "Delete"
-            },
-            "type": "text"
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "action_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "properties": {
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "",
+            "datalist_type": "action",
+            "deleteFiles": "",
+            "deleteGridData": "",
+            "deleteSubformData": "",
+            "formDefId": "id_Profile",
+            "label": "Delete"
         },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "action_1",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "action",
-                "href": "idCV",
-                "hrefColumn": "id",
-                "hrefParam": "id",
-                "label": "Édit",
-                "target": "_self",
-                "visible": ""
-            },
-            "type": "text"
-        }
-    ],
+        "type": "text"
+    }],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "extraCondition": "",
-            "formDefId": "idInfoCV"
+            "formDefId": "id_Profile"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -50,7 +30,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
+            "id": "column_0",
             "label": "Photo :",
             "name": "idPhotot",
             "sortable": "false"
@@ -58,7 +38,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
+            "id": "column_2",
             "label": "Nom :",
             "name": "idNom",
             "sortable": "false"
@@ -66,9 +46,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
+            "id": "column_1",
             "label": "Prenom :",
             "name": "idPrenom",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "E-mail :",
+            "name": "idEmail",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Description de profil :",
+            "name": "idDescription",
             "sortable": "false"
         }
     ],
