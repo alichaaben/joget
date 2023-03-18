@@ -127,10 +127,10 @@
                 }
             ],
             "properties": {
-                "customWidth": "1000",
+                "customWidth": "1000px",
                 "horizontal": "",
                 "label": "",
-                "width": "1000"
+                "width": "1000px"
             }
         }],
         "properties": {
