@@ -13,7 +13,7 @@
                         "collapsible": "true",
                         "deleteMode": "disable",
                         "editFormDefId": "",
-                        "editMode": "disable",
+                        "editMode": "enable",
                         "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "id_Profile",
@@ -460,7 +460,7 @@
                     "properties": {
                         "clickableStep": "true",
                         "id": "field14",
-                        "sections": "id_profile,id_experience,idFormation,id_competence_cles,idCompetence_1,idLangue"
+                        "sections": "id_Profile,id_experience,idFormation,id_competence_cles,idCompetence_1,idLangue"
                     }
                 }],
                 "properties": {"width": "100%"}
