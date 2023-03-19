@@ -23,9 +23,25 @@
     "properties": {
         "description": "",
         "id": "idGenereCV",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
-        "name": "génération des CV",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "génération un CV",
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "GenereCV"
     }
 }
