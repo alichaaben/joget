@@ -12,7 +12,7 @@
             "deleteFiles": "",
             "deleteGridData": "",
             "deleteSubformData": "",
-            "formDefId": "id_Profile",
+            "formDefId": "id_infoPersonnel",
             "label": "Delete"
         },
         "type": "text"
@@ -21,7 +21,7 @@
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "extraCondition": "",
-            "formDefId": "id_Profile"
+            "formDefId": "id_infoPersonnel"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -30,39 +30,47 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "Photo :",
-            "name": "idPhotot",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Nom :",
-            "name": "idNom",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_1",
-            "label": "Prenom :",
-            "name": "idPrenom",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "E-mail :",
-            "name": "idEmail",
+            "label": "Photo :",
+            "name": "idPhoto",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_3",
+            "label": "Nom de famille :",
+            "name": "idFirstName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Prénom :",
+            "name": "idLastName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Adresse e-mail",
+            "name": "idAdress",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Numéro de téléphone :",
+            "name": "idNumTele",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
             "label": "Description de profil :",
             "name": "idDescription",
             "sortable": "false"
