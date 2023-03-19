@@ -6,25 +6,127 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
-                        "id": "field1",
-                        "label": "Text Field",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "attachment": "",
+                        "fileType": "",
+                        "fileTypeMsg": "Invalid file type",
+                        "id": "idPhoto",
+                        "label": "Photo :",
+                        "maxSize": "",
+                        "maxSizeMsg": "File size limit exceeded",
+                        "multiple": "",
+                        "padding": "",
+                        "permissionType": "",
+                        "readonly": "",
+                        "removeFile": "",
+                        "resizeHeight": "",
+                        "resizeMethod": "",
+                        "resizeQuality": "0.8",
+                        "resizeWidth": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "field2",
-                        "label": "Text Field",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "id": "idFirstName",
+                        "label": "Nom de famille :",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "idLastName",
+                        "label": "Prénom :",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "idAdress",
+                        "label": "Adresse e-mail",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "idNumTele",
+                        "label": "Numéro de téléphone :",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "cols": "20",
+                        "id": "idDescription",
+                        "label": "Description de profil :",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "rows": "5",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 }
             ],
@@ -59,9 +161,25 @@
     "properties": {
         "description": "",
         "id": "id_infoPersonnel",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "info personnelle",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
-        "tableName": "info"
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "tableName": "info_profil"
     }
 }
