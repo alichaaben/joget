@@ -502,7 +502,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "information professionnelles",
+        "name": "Crée CV",
         "noPermissionMessage": "",
         "permission": {
             "className": "",
