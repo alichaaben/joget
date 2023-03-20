@@ -50,17 +50,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "ID",
-            "name": "id",
+            "id": "column_6",
+            "label": "NOM DE PROJET :",
+            "name": "idNomProjet",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "POSTE OCCUPÉ :",
-            "name": "idPoste",
+            "id": "column_5",
+            "label": "DESCRIPTION DE L'ACTIVITER :",
+            "name": "idDescription",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "DATE DE TERMINÉ :",
+            "name": "idDateFin",
             "sortable": "false"
         },
         {
@@ -82,25 +90,17 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_4",
-            "label": "DATE DE DÉBUT :",
-            "name": "idDateDebut",
+            "id": "column_1",
+            "label": "POSTE OCCUPÉ :",
+            "name": "idPoste",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
-            "label": "DATE DE FIN :",
-            "name": "idDateFin",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_6",
-            "label": "DESCRIPTION :",
-            "name": "idDescription",
+            "id": "column_7",
+            "label": "ENVIRONNEMENT :",
+            "name": "idEnv",
             "sortable": "false"
         }
     ],
