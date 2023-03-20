@@ -138,7 +138,7 @@
             "comment": "",
             "id": "id_info",
             "join": "",
-            "label": "informations personnelles",
+            "label": "Générer ton CV",
             "loadBinder": {
                 "className": "org.joget.apps.form.lib.BeanShellFormBinder",
                 "properties": {
@@ -152,9 +152,10 @@
                 "className": "",
                 "properties": {}
             },
+            "permissionHidden": "",
             "permissionReadonly": "",
-            "readonly": "",
-            "readonlyLabel": "",
+            "readonly": "true",
+            "readonlyLabel": "true",
             "regex": "",
             "reverse": "",
             "storeBinder": {
