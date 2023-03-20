@@ -6,32 +6,6 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.FileUpload",
-                    "properties": {
-                        "attachment": "",
-                        "fileType": "",
-                        "fileTypeMsg": "Invalid file type",
-                        "id": "idPhoto",
-                        "label": "Photo :",
-                        "maxSize": "",
-                        "maxSizeMsg": "File size limit exceeded",
-                        "multiple": "",
-                        "padding": "",
-                        "permissionType": "",
-                        "readonly": "",
-                        "removeFile": "",
-                        "resizeHeight": "",
-                        "resizeMethod": "",
-                        "resizeQuality": "0.8",
-                        "resizeWidth": "",
-                        "size": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        }
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "id": "idFirstName",
@@ -97,13 +71,13 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "idNumTele",
-                        "label": "Numéro de téléphone :",
+                        "id": "idRole",
+                        "label": "poste occupé :",
                         "maxlength": "",
                         "permissionHidden": "",
                         "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
+                        "readonly": "true",
+                        "readonlyLabel": "true",
                         "size": "",
                         "storeNumeric": "",
                         "style": "",
@@ -116,15 +90,39 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextArea",
+                    "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "cols": "20",
-                        "id": "idDescription",
-                        "label": "Description de profil :",
+                        "id": "idDepartement",
+                        "label": "Département :",
+                        "maxlength": "",
+                        "permissionHidden": "",
                         "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "rows": "5",
+                        "readonly": "true",
+                        "readonlyLabel": "true",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "idOrg",
+                        "label": "organisation :",
+                        "maxlength": "",
+                        "permissionHidden": "",
+                        "placeholder": "",
+                        "readonly": "true",
+                        "readonlyLabel": "true",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
                         "validator": {
                             "className": "",
                             "properties": {}
