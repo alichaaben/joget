@@ -51,7 +51,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "id": "idAdress",
-                        "label": "Adresse e-mail",
+                        "label": "Adresse e-mail :",
                         "maxlength": "",
                         "permissionHidden": "",
                         "placeholder": "",
