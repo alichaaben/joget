@@ -30,7 +30,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_3",
+            "id": "column_0",
             "label": "Nom de famille :",
             "name": "idFirstName",
             "sortable": "false"
@@ -38,7 +38,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
+            "id": "column_1",
             "label": "Prénom :",
             "name": "idLastName",
             "sortable": "false"
@@ -46,15 +46,23 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "Adresse e-mail",
+            "id": "column_2",
+            "label": "poste occupé :",
+            "name": "idRole",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Adresse e-mail :",
             "name": "idAdress",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
+            "id": "column_4",
             "label": "organisation :",
             "name": "idOrg",
             "sortable": "false"
@@ -62,7 +70,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_4",
+            "id": "column_5",
             "label": "Département :",
             "name": "idDepartement",
             "sortable": "false"
