@@ -30,14 +30,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "Photo :",
-            "name": "idPhoto",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_3",
             "label": "Nom de famille :",
             "name": "idFirstName",
@@ -62,17 +54,17 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_4",
-            "label": "Numéro de téléphone :",
-            "name": "idNumTele",
+            "id": "column_1",
+            "label": "organisation :",
+            "name": "idOrg",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
-            "label": "Description de profil :",
-            "name": "idDescription",
+            "id": "column_4",
+            "label": "Département :",
+            "name": "idDepartement",
             "sortable": "false"
         }
     ],
