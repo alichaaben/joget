@@ -48,7 +48,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#currentUser.firstName#",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
@@ -69,7 +69,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#currentUser.lastName#",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
@@ -90,7 +90,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#currentUser.email#",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
