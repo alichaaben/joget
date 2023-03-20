@@ -233,6 +233,33 @@
                             "value": "",
                             "workflowVariable": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.Grid",
+                        "properties": {
+                            "errorMessage": "Invalid number of rows",
+                            "id": "idActiviter",
+                            "label": "ACTIVITER :",
+                            "loadBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "options": [{
+                                "label": "Activer de projet",
+                                "value": "gridColumn1"
+                            }],
+                            "readonly": "",
+                            "storeBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "validateMaxRow": "",
+                            "validateMinRow": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            }
+                        }
                     }
                 ],
                 "properties": {"width": "100%"}
