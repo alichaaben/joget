@@ -132,7 +132,7 @@
                     "properties": {
                         "errorMessage": "Invalid number of rows",
                         "id": "idActiviter",
-                        "label": "ACTIVITER",
+                        "label": "ACTIVITER :",
                         "loadBinder": {
                             "className": "",
                             "properties": {}
