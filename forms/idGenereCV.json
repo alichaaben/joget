@@ -10,14 +10,14 @@
                     "addMode": "disable",
                     "collapsedByDefault": "",
                     "collapsible": "true",
-                    "deleteMode": "enable",
+                    "deleteMode": "disable",
                     "editFormDefId": "",
                     "editMode": "enable",
                     "enableSorting": "",
                     "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                     "formDefId": "idInfoCV",
                     "id": "field1",
-                    "label": "Subform Repeater",
+                    "label": "#currentUser.firstName#_CV",
                     "loadBinder": {
                         "className": "",
                         "properties": {}
