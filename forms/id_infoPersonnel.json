@@ -39,8 +39,8 @@
                         "maxlength": "",
                         "permissionHidden": "",
                         "placeholder": "",
-                        "readonly": "true",
-                        "readonlyLabel": "",
+                        "readonly": "",
+                        "readonlyLabel": "true",
                         "size": "",
                         "storeNumeric": "",
                         "style": "",
@@ -60,8 +60,8 @@
                         "maxlength": "",
                         "permissionHidden": "",
                         "placeholder": "",
-                        "readonly": "true",
-                        "readonlyLabel": "",
+                        "readonly": "",
+                        "readonlyLabel": "true",
                         "size": "",
                         "storeNumeric": "",
                         "style": "",
@@ -81,8 +81,8 @@
                         "maxlength": "",
                         "permissionHidden": "",
                         "placeholder": "",
-                        "readonly": "true",
-                        "readonlyLabel": "",
+                        "readonly": "",
+                        "readonlyLabel": "true",
                         "size": "",
                         "storeNumeric": "",
                         "style": "",
@@ -149,19 +149,6 @@
                     "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
                         "id": "idGenerExperience",
-                        "useDefaultWhenEmpty": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.HiddenField",
-                    "properties": {
-                        "id": "env",
                         "useDefaultWhenEmpty": "",
                         "validator": {
                             "className": "",
