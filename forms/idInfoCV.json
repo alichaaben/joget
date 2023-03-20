@@ -8,7 +8,7 @@
                 "elements": [{
                     "className": "org.joget.SubformRepeater",
                     "properties": {
-                        "addMode": "oneTop",
+                        "addMode": "disable",
                         "collapsedByDefault": "",
                         "collapsible": "true",
                         "deleteMode": "disable",
@@ -31,8 +31,6 @@
                         "permissionHidden": "",
                         "readonly": "",
                         "readonlyLabel": "true",
-                        "runPostProcessing": "",
-                        "setWorkflowVariable": "",
                         "storeBinder": {
                             "className": "org.joget.apps.form.lib.BeanShellFormBinder",
                             "properties": {
