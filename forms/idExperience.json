@@ -8,8 +8,8 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "idPoste",
-                        "label": "POSTE OCCUPÉ :",
+                        "id": "idNomProjet",
+                        "label": "NOM DE PROJET :",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
@@ -23,6 +23,48 @@
                         },
                         "value": "",
                         "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "cols": "20",
+                        "id": "idDescription",
+                        "label": "DESCRIPTION DE L'ACTIVITER :",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "rows": "5",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "allowManual": "",
+                        "currentDateAs": "",
+                        "dataFormat": "yyyy-MM-dd",
+                        "datePickerType": "",
+                        "endDateFieldId": "",
+                        "format": "",
+                        "id": "idDateFin",
+                        "label": "DATE DE TERMINÉ :",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": "",
+                        "yearRange": "c-10:c+10"
                     }
                 },
                 {
@@ -66,35 +108,58 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "allowManual": "",
-                        "currentDateAs": "",
-                        "dataFormat": "yyyy-MM-dd",
-                        "datePickerType": "",
-                        "endDateFieldId": "",
-                        "format": "",
-                        "id": "idDateFin",
-                        "label": "DATE DE TERMINÉ :",
+                        "id": "idPoste",
+                        "label": "POSTE OCCUPÉ :",
+                        "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
-                        "startDateFieldId": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
                         "validator": {
                             "className": "",
                             "properties": {}
                         },
                         "value": "",
-                        "workflowVariable": "",
-                        "yearRange": "c-10:c+10"
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "idActiviter",
+                        "label": "ACTIVITER",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "Activer de projet",
+                            "value": "gridColumn1"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "cols": "20",
-                        "id": "idDescription",
-                        "label": "DESCRIPTION DE L'ACTIVITER :",
+                        "id": "idEnv",
+                        "label": "ENVIRONNEMENT :",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
