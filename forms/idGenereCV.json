@@ -7,7 +7,7 @@
             "elements": [{
                 "className": "org.joget.SubformRepeater",
                 "properties": {
-                    "addMode": "enable",
+                    "addMode": "disable",
                     "collapsedByDefault": "",
                     "collapsible": "true",
                     "deleteMode": "enable",
