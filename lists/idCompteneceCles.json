@@ -39,8 +39,8 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_1",
-            "label": "idGenerExperience",
-            "name": "idGenerExperience",
+            "label": "compétence clés :",
+            "name": "id_competence_cles",
             "sortable": "false"
         },
         {
