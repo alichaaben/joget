@@ -46,7 +46,7 @@
                         "enableOffline": "",
                         "fieldPassover": "",
                         "fieldPassoverMethod": "append",
-                        "formId": "idGenereCV",
+                        "formId": "idCVGenere",
                         "id": "50A7B31F56774B7592F4BEA155200976",
                         "keyName": "",
                         "label": "Générer mon CV",
